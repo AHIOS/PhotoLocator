@@ -38,6 +38,8 @@
 	<string>Please allow PhotoLocator to access camera only when in use.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Please allow PhotoLocator to access location only when in use.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Photo locator use the camera in order to take geotagged photo</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

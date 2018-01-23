@@ -9,12 +9,17 @@
 import UIKit
 import Sparrow
 import ALCameraViewController
+import CoreLocation
 
-class ViewController: UIViewController, UITextFieldDelegate {
+class ViewController: UIViewController, UITextFieldDelegate, CLLocationManagerDelegate {
     
     var username = ""
     @IBOutlet weak var usrnameLbl: UILabel!
     @IBOutlet weak var imageView: UIImageView!
+    
+    @IBOutlet weak var coordsLbl: UILabel!
+    
+    let locationManager = CLLocationManager()
     
 
     override func viewDidLoad() {
@@ -38,12 +43,26 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @objc func takePhoto(_ sender: UITapGestureRecognizer) {
         let cameraViewController = CameraViewController { [weak self] image, asset in
             // Do something with your image here.
+            self?.imageView.image = image
             self?.dismiss(animated: true, completion: nil)
+            
+            if CLLocationManager.locationServicesEnabled() {
+                self?.locationManager.delegate = self
+                self?.locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
+                self?.locationManager.startUpdatingLocation()
+            }
         }
         
         present(cameraViewController, animated: true, completion: nil)
     }
 
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        let locValue:CLLocationCoordinate2D = manager.location!.coordinate
+        coordsLbl.text = "@\nLAT: \(locValue.latitude)\nLNG: \(locValue.longitude)"
+        print("locations = \(locValue.latitude) \(locValue.longitude)")
+        self.locationManager.stopUpdatingLocation()
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -90,7 +109,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
             alert.addAction(title: "OK", style: .cancel)
             alert.show()
         }else{
-            self.usrnameLbl.text = "Welcome \(username)"
+            self.usrnameLbl.text = "Welcome back \(username)"
         }
     }
     

@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -31,9 +30,17 @@
                                     <constraint firstAttribute="width" secondItem="V8P-x5-j1Q" secondAttribute="height" multiplier="1:1" id="EFY-ft-4d1"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qu7-Ed-BpT">
+                                <rect key="frame" x="179.5" y="357" width="15.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="Qu7-Ed-BpT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4pb-Ed-4GJ"/>
+                            <constraint firstItem="Qu7-Ed-BpT" firstAttribute="top" secondItem="V8P-x5-j1Q" secondAttribute="bottom" constant="28" id="E9m-X0-rff"/>
                             <constraint firstItem="V8P-x5-j1Q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="FII-8W-xCv"/>
                             <constraint firstItem="V8P-x5-j1Q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ulb-pl-jJl"/>
                             <constraint firstItem="V8P-x5-j1Q" firstAttribute="top" secondItem="2gb-2s-2YU" secondAttribute="bottom" constant="45" id="eKq-1s-WIj"/>
@@ -43,6 +50,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="coordsLbl" destination="Qu7-Ed-BpT" id="D5J-6f-q07"/>
                         <outlet property="imageView" destination="V8P-x5-j1Q" id="x95-Of-j77"/>
                         <outlet property="usrnameLbl" destination="2gb-2s-2YU" id="P4Z-k4-m8y"/>
                     </connections>
