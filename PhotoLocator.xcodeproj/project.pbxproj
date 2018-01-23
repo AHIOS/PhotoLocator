@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C0666A320177033004032B7 /* negretto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C0666A220177033004032B7 /* negretto.jpg */; };
 		2C17B40420163C30008FE708 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C17B40320163C30008FE708 /* AppDelegate.swift */; };
 		2C17B40620163C30008FE708 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C17B40520163C30008FE708 /* ViewController.swift */; };
 		2C17B40920163C30008FE708 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C17B40720163C30008FE708 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C0666A220177033004032B7 /* negretto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = negretto.jpg; sourceTree = "<group>"; };
 		2C17B40020163C30008FE708 /* PhotoLocator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoLocator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C17B40320163C30008FE708 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C17B40520163C30008FE708 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				2C17B40320163C30008FE708 /* AppDelegate.swift */,
 				2C17B40520163C30008FE708 /* ViewController.swift */,
 				2C8E5259201650CF00A209F2 /* Assets.xcassets */,
+				2C0666A220177033004032B7 /* negretto.jpg */,
 				2C17B40720163C30008FE708 /* Main.storyboard */,
 				2C17B40C20163C30008FE708 /* LaunchScreen.storyboard */,
 				2C17B40F20163C30008FE708 /* Info.plist */,
@@ -259,6 +262,7 @@
 			files = (
 				2C8E525120164E6400A209F2 /* Countries.bundle in Resources */,
 				2C17B40E20163C30008FE708 /* LaunchScreen.storyboard in Resources */,
+				2C0666A320177033004032B7 /* negretto.jpg in Resources */,
 				2C8E525A201650CF00A209F2 /* Assets.xcassets in Resources */,
 				2C17B40920163C30008FE708 /* Main.storyboard in Resources */,
 			);

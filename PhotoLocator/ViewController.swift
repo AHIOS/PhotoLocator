@@ -16,6 +16,7 @@ class ViewController: UIViewController, UITextFieldDelegate, CLLocationManagerDe
     
     var username = ""
     let url = "mirkoghey.com"
+    var coords : CLLocationCoordinate2D = CLLocationCoordinate2DMake(0.0, 0.0)
     
     @IBOutlet weak var usrnameLbl: UILabel!
     @IBOutlet weak var imageView: UIImageView!
@@ -29,29 +30,21 @@ class ViewController: UIViewController, UITextFieldDelegate, CLLocationManagerDe
     
     @IBAction func sendData(_ sender: Any) {
         let imageData = UIImageJPEGRepresentation(imageView.image!, 0.5) as Data?
-        let url = try! URLRequest(url: URL(string:"www.mirkoghey.com")!, method: .post, headers: nil)
-    
-        Alamofire.upload(
-            multipartFormData: { multipartFormData in
-                multipartFormData.append(imageData!, withName: "photo", fileName: "\(NSDate().timeIntervalSince1970)-\(self.username).jpg", mimeType: "image/jpeg")
-                
-        },
-            with: url,
-            encodingCompletion: { encodingResult in
-                switch encodingResult {
-                case .success(let upload, _, _):
-                    upload.responseJSON { response in
-                        if((response.result.value) != nil) {
-                            
-                        } else {
-                            
-                        }
-                    }
-                case .failure( _):
-                    break
-                }
+        let strBase64 = imageData?.base64EncodedString(options: .lineLength64Characters) as String!
+        
+        let parameters: [String: Any] = [
+            "photo" : strBase64!,
+            "user" : "username",
+            "comment": descriptionText.text,
+            "location": [self.coords.latitude,
+                         self.coords.longitude
+            ]
+        ]
+        
+        Alamofire.request("http://myserver.com", method: .post, parameters: parameters, encoding: JSONEncoding.default)
+            .responseJSON { response in
+                print(response)
         }
-        )
     }
     
     override func viewDidLoad() {
@@ -77,6 +70,16 @@ class ViewController: UIViewController, UITextFieldDelegate, CLLocationManagerDe
     }
     
     @objc func takePhoto(_ sender: UITapGestureRecognizer) {
+        #if (arch(i386) || arch(x86_64)) && (os(iOS) || os(watchOS) || os(tvOS))
+            imageView.image = UIImage(named: "negretto.jpg")
+            if CLLocationManager.locationServicesEnabled() {
+                locationManager.delegate = self
+                locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
+                locationManager.startUpdatingLocation()
+            }
+            return
+        #endif
+        
         let cameraViewController = CameraViewController { [weak self] image, asset in
             // Do something with your image here.
             self?.imageView.image = image
@@ -118,6 +121,7 @@ class ViewController: UIViewController, UITextFieldDelegate, CLLocationManagerDe
 
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         let locValue:CLLocationCoordinate2D = manager.location!.coordinate
+        self.coords = locValue
         coordsLbl.text = "@\nLAT: \(locValue.latitude)\nLNG: \(locValue.longitude)"
         print("locations = \(locValue.latitude) \(locValue.longitude)")
         self.locationManager.stopUpdatingLocation()
