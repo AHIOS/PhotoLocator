@@ -1,0 +1,1334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02B1D1F62C0C64E6DF3C6AB2170E8540 /* SPBezierPathFigureIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D0C56DBA556C6C9593ABF47C3F411E /* SPBezierPathFigureIcons.swift */; };
+		08D7E25BCF9182A6DD14F233A4EF2B84 /* SPRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7FB56FBE707C007E70049C3652850D /* SPRandom.swift */; };
+		0A1094D2F6FDE426DA3D3CA34AFC4B94 /* SPRequestPermissionDialogInteractiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3067BF76E0963BFB80381811B44A07 /* SPRequestPermissionDialogInteractiveView.swift */; };
+		0A366E81AED7B706634F3FF8A503AA57 /* SPBezierPathFigureDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954B266BF6901DFEC651E0B0297A5C5E /* SPBezierPathFigureDraw.swift */; };
+		0C259D5F999E2FB03941DB9A033E2841 /* SPDialogSwipeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B01BBB2A81F1B91CECD882D2A4B4C0 /* SPDialogSwipeController.swift */; };
+		0CF4B43223D702DCDF0DB2707F743BFB /* SPCGSizeExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C38D4F2D95758356753ACC86EF39A0 /* SPCGSizeExtenshion.swift */; };
+		0F8D397FEF50A91F071DE1F549F7414E /* SPBezierPathFigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23739E828C151EF9F29E02E99862BF90 /* SPBezierPathFigure.swift */; };
+		1606807D0268ABBB66004CE3D0470156 /* SPRhombusPatternView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BA9C721A39DF4CAEB69FF8B94869D /* SPRhombusPatternView.swift */; };
+		16DC68ED86E7F183A07C5529E456217E /* SPCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA20001DC0AA4FF9AE13CD24A23AD05C /* SPCollectionView.swift */; };
+		17980A7D4FFDA661EB7A2A7877957D1C /* ALCameraViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5329DCD8DA72BF2DBFED9A307659A2C6 /* ALCameraViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17F8C50A50644F34FA8B9BD06F169C14 /* SPRequestPermissionDataColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233A86E6DC7C9C57DF55E92D4B23D174 /* SPRequestPermissionDataColors.swift */; };
+		1B777473D17B11A275A88764D2AD92AD /* SPTitleWithSubtitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109C440101B5D918D18B6D77E4EC9761 /* SPTitleWithSubtitleView.swift */; };
+		1B81998893BD0E2FF43AB3925A5515AA /* SPRequestPermissionNativePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219325D9604AE683446F3C1EB8F03BFE /* SPRequestPermissionNativePresenter.swift */; };
+		1B97985251BCE72807D9BA891177A4A5 /* SPRequestPermissionTwiceControlBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAD1FE4ACAA5099AC0CA1AAF618F18E /* SPRequestPermissionTwiceControlBase.swift */; };
+		218EA4BF7227BD3C0532E1855BF6B632 /* SPDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB29AEA6DDAD11FFA7C5EEE3971DE387 /* SPDownloader.swift */; };
+		254C309BEF92E2CB698AAB7788584903 /* SPAppStoreActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E603B801C095B35718EF67F9B6FFDC4E /* SPAppStoreActionButton.swift */; };
+		262B292E9B448044A211FF8CE25DEDA6 /* SPSystemIconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2FF77273B9E2B45BE02D4BCF06EA30 /* SPSystemIconButton.swift */; };
+		27FCBAB30A618E36076464C3A000830D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		2994231F185B857D35C678035BAECD03 /* SPFormBottomTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE2810AF751AFAFEF8680EC0322E950 /* SPFormBottomTextTableViewCell.swift */; };
+		2C7833F87A044AE93566C161809D0B41 /* SPRateAppBannerWithIndicatorTwiceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B451965159B843EE5789BF8DC365748 /* SPRateAppBannerWithIndicatorTwiceButton.swift */; };
+		31E28917F8AB21EA3E83A09DBDA0E554 /* SPConstraintsAssistent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F5E95CABBA7B88EDBBDD73501F744 /* SPConstraintsAssistent.swift */; };
+		336024862D0E62119E32B60AAD016AB1 /* SPRateAppBannerWithIndicatorAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD1E611388915033F17DB0ACDC0BCE5 /* SPRateAppBannerWithIndicatorAlertView.swift */; };
+		336408A56B3E59E703C763919E20C905 /* SPLaunchAnimationSlideExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD38BD048CC1AD983BA6E2819D3BB0A /* SPLaunchAnimationSlideExtenshion.swift */; };
+		35642CFE3A385123E0311299FE20BA6D /* SPUIButtonExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461707A3933D1CE875F5C1EB7B861DF0 /* SPUIButtonExtenshion.swift */; };
+		3579A5632C68ECB771284AE039E39705 /* CameraViewControllerConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61EDEE847C6AFBEB3905752CFEA59BD /* CameraViewControllerConstraint.swift */; };
+		384348B8C5244E689BB9F4E8E9BA8544 /* SPRequestPermissionDialogInteractivePresenterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AD4E78850016D33A528777D4175AFF /* SPRequestPermissionDialogInteractivePresenterInterface.swift */; };
+		39C1B158A6F5300DADAC5A90280497A8 /* SPFormButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01870B34A3E61C2D00FF4791332F9E3 /* SPFormButtonTableViewCell.swift */; };
+		3C5F9916AEADB44A2258E1E544DBAC64 /* SPRateAppEventsDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DA0543D30BC616C2CF6F6CF7FCDBEC /* SPRateAppEventsDelegate.swift */; };
+		3D738FB20F288AC14588905878945503 /* SPRoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94E5121B5D576DC85BD5B02083288D /* SPRoundButton.swift */; };
+		3EB383A02A7C2AD66112BCE55B500051 /* SPUITextFieldExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAC002E5B05288F643A6CFD608D2532 /* SPUITextFieldExtenshion.swift */; };
+		40D4812F8380FBF3C5F96D379B416D08 /* SPUIFontExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6DE29817E7D09F1950776CFC7D36AA /* SPUIFontExtenshion.swift */; };
+		427247014D3618651D802FD669251841 /* SPNativeOS11Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A6A7C162ADDC5B1827E14DF6EBA1EC /* SPNativeOS11Button.swift */; };
+		429F60257FD271BE779242EAEEFEB06F /* SPAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B24845111D8C741105E926A745D316 /* SPAnimation.swift */; };
+		42F0D75E7DA383640BD4574C8D08CEF1 /* ALCameraViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DABDE8493210570898ADBAFC4F8EE30 /* ALCameraViewController-dummy.m */; };
+		4349C7FDD5D95D9FA443AEB4DBF25858 /* SPGradeWithBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0040ED85F7368FAFA74C0285087E32E /* SPGradeWithBlurView.swift */; };
+		43809033138432137E65014841E55EF8 /* SPPermissionsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEED03AB404115E76CE6BEA2E8540DF8 /* SPPermissionsManager.swift */; };
+		43DEE2F1EF7D3B1B7036EF4DF900513B /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56916991B3D90CF7758C7998BD032CE4 /* UIButtonExtensions.swift */; };
+		457467BCC6D2BA275F0E3E02AE0ECFA6 /* SPDownloadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD6BA051473371EEE2AAE67458D1AEC /* SPDownloadingButton.swift */; };
+		47475127F3D9B0AA095E90193F7A0012 /* SingleImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9ED1A548E80DC5218CEAF4ADF7DDF2 /* SingleImageSaver.swift */; };
+		48A62FDCD9FCD5C1940DE1C041D38D31 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4D7EDC92168870ABC908DB1EC42A42 /* CameraViewController.swift */; };
+		48ABF9C87135C13ADF0E4A371F516219 /* SPGradientGradeWithBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545204A0CCFD0E10A4BE49373B79EF98 /* SPGradientGradeWithBlurView.swift */; };
+		49F718CC2A382A6E091F07A4A3449441 /* CameraView.strings in Resources */ = {isa = PBXBuildFile; fileRef = 701844AC076458C89050E14C27D63003 /* CameraView.strings */; };
+		4A298B28EFFE7840E2B67158C52F6B2A /* SPCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C28EDFF303075D05610D8FF85C443A5 /* SPCollectionViewLayout.swift */; };
+		4A7A65E9F5B5FC9025396987A8BBEAD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		4AD5DA24A58B72BEF85EDD8C1117813B /* PhotoLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D9CC98ABCD63C00FD6331D77064271 /* PhotoLibraryViewController.swift */; };
+		4D9E466DBDAB764FEA021801286664F3 /* SPUIViewControllerExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F91D7A0E60309CEB2361756E5E6B4B /* SPUIViewControllerExtenshion.swift */; };
+		52007FFD2736B20936D18E34404CBD41 /* SPDownloadingUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B23534D1745E895D3A7F5AD04A8F191 /* SPDownloadingUIImageView.swift */; };
+		537305EB4EB29F3FE9F1D8546D9B7B26 /* SPSpotlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7964028B8C7CCB8A93D366DBBF8AAB /* SPSpotlight.swift */; };
+		5412096CD895C32FF0E8F767925D2C73 /* SPCodeDrawSocialIconPack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308D3CA5B3C141CB77291B0F1CEEF49 /* SPCodeDrawSocialIconPack.swift */; };
+		55691B4946AE3E04672E63C66BC3604D /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B93F0E7E422BB7AA8A3A9C83A77DAA5 /* Utilities.swift */; };
+		56D285DBE4A1CAF344052C02F5B3BC88 /* SPShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A475406FDE93A305C58C71BD71D170D1 /* SPShareView.swift */; };
+		580540C0BA6686C1C71A8AD66105A7E5 /* SPIndicationBannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2B2582C123DC2E608D7360FDE9D9B3 /* SPIndicationBannerController.swift */; };
+		582B3308127290F41EADA0DE9345BD2D /* SPDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C351149377A1D66642B4D35E232C22 /* SPDevice.swift */; };
+		589CC256F80FA148E5ECF444E2E9C48B /* SPDelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EBA079FD0A826B66F7E1DD4B3C616B /* SPDelay.swift */; };
+		5A5E1382DF934B0F393E564BC132B6B4 /* SPLaunchAnimationTwitterExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3421F9FABE2F8F1F0E5C17A172975EF2 /* SPLaunchAnimationTwitterExtenshion.swift */; };
+		5B9CF23CD8C0146625266A7BFF00DB00 /* SPCGRectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6192517D74280CA39CAC9D2B4957E249 /* SPCGRectExtension.swift */; };
+		5C1184CF84A07DF3F565A9E450FBCA62 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA787B57200D187B46EED06AA3AE5197 /* UIViewExtensions.swift */; };
+		5C67553979CD9C6DDD03D72BEBA71A96 /* SPHiderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6F29C2B9D3133746DBEDC69396E54B /* SPHiderViewController.swift */; };
+		5C69E53C4C0BA204FD40321407D943F0 /* SPAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70EB0892B918FEB3E62DDFC6D3615C7 /* SPAudio.swift */; };
+		60A7A9802952E5259A521333C1CE7F7D /* SPLaunchAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64940DF6682EFEDACF271BFD8CBD1B1B /* SPLaunchAnimation.swift */; };
+		60EBF93B96F15935427F5EC94237ADA9 /* SPBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F9C24821C26172411D9009EDE8F4F1 /* SPBlurView.swift */; };
+		67032953D1DB30B26C861A3D2E02FE8B /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E3D847483C4A9E46C68CB199AA79DB /* ImageFetcher.swift */; };
+		6733126CCE747D6EBA99F4F31D46FCFF /* SPUIDeviceExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D511F282C9625AAC0E3DC7A7B0E54548 /* SPUIDeviceExtenshion.swift */; };
+		689AB80C21330BCF76B3C53A007A6B42 /* SPBezierPathFigurePatterns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375AE89BF809A71A79E22DD59D27E0D8 /* SPBezierPathFigurePatterns.swift */; };
+		6BB9C5B3B9D00DD1780402C0979A161B /* SPPlayCircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66B018B64C6E50F1EFB6543D652AD4F /* SPPlayCircleButton.swift */; };
+		6C383E9F82F1435F1408AB0070D331F4 /* SPConfirmActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B09481B5426D326DADF513108CEBD9 /* SPConfirmActionViewController.swift */; };
+		6F2790870B2680943BFD3658A5D97CDE /* SPRequestPermissionDialogInteractiveDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC36CF7F187D1D5E474D55978DB5B77 /* SPRequestPermissionDialogInteractiveDataSource.swift */; };
+		6FF9C56FFB2AACABE501C1F6A40EDC5A /* SPRequestPermissionDataFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60ED6411CA0B1656B3B3BBA28D011A8C /* SPRequestPermissionDataFonts.swift */; };
+		70B165063B01230048AA8D188E65C603 /* SPPermissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76467E9016B54BE74AA865AB020B6B2 /* SPPermissions.swift */; };
+		7333B28C9E775BECE911BEC4B9410810 /* SPBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281D21265E68E0080A9EB53D7632FB3E /* SPBadge.swift */; };
+		73B9B53228F90F3CFF761BA2D92C2D96 /* SPStatusBarManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE21A09CAAEFA4DC2DAFB6E5455E812 /* SPStatusBarManagerViewController.swift */; };
+		746D086FDC459838488FA82DA1FB3F31 /* SPCodeDrawAudioIconPack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F725174CAF856B14A3D1F53CBCA3E558 /* SPCodeDrawAudioIconPack.swift */; };
+		75B997A2946B8A16B43E396FF4EEF4C3 /* SPNativeStyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE1EDD9E2A7AD276A6EDFDDCD97C08F /* SPNativeStyleKit.swift */; };
+		78229C724844A2F32DB2D05285CE515C /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5E1A455B74988A9BC6C5A242811797 /* ImageCell.swift */; };
+		788A8A5F04EFC4871EC03F0EDEAFD993 /* SPStyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D5A665A5BB25E3E722F2CA8B740BE2 /* SPStyleKit.swift */; };
+		7926028022307AECF932B96865C1D6B6 /* SPCodeDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7859462BA1668D911764A0295A1683 /* SPCodeDraw.swift */; };
+		794E29F0BDAA332BB38CC16B94A35CFE /* SPShadowDeep.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF43601D226E663A096DEEE500521A3C /* SPShadowDeep.swift */; };
+		79D73C844D9FCD7306859184777DBEE4 /* Sparrow-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 315DE0EDF930AEFA72593D6A824B374A /* Sparrow-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F3E45EB4C45C33CE69C482963A55ACB /* Sparrow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6C7C6DDC3FA535C8D7CC72A1757C8A /* Sparrow-dummy.m */; };
+		83942FC58C714B5FC3931BE332EB49B0 /* SPRequestPermissionDialogInteractiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0222269BC4908DBD5B59A2406A6DBD4C /* SPRequestPermissionDialogInteractiveViewController.swift */; };
+		84E36F20180D84DAC1CF8431E531F700 /* SPRateAppBannerWithIndicatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0444143016DBC15F85A1491F3A3BD8FF /* SPRateAppBannerWithIndicatorController.swift */; };
+		86151CA3D703583103CCEB8200FE4AEC /* SPUIViewExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4658CC46828B3ED6A0DA26C78CEA1B2B /* SPUIViewExtenshion.swift */; };
+		8666AEBAC90E8D901851D87C013F5C47 /* SPTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD948EA3B6AB550E6BFE85D72866DBB2 /* SPTableViewCell.swift */; };
+		8710E0E7FC99F7E626BCC6B7E2E87A5E /* SPRequestPermissionDialogInteractiveDataSourceInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4992300207EACC51D861091F960CA /* SPRequestPermissionDialogInteractiveDataSourceInterface.swift */; };
+		87B0218D1CC2354B9C87D8531A6E0A0A /* SPUIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EDC91BCDE7D15416E85F1E1EECA8C9 /* SPUIImageExtension.swift */; };
+		88C3650AC1F3AF55B7CB4DD7859559C1 /* SPRateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC1153CD07F66003093DE37927B24A5 /* SPRateApp.swift */; };
+		895CFAD307F2CBF482D2D935035DFD10 /* SPAnimationAlpha.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D4E74FE34F20AFCFE93ADF103C992F /* SPAnimationAlpha.swift */; };
+		8AA7F52B3E31F698F06D54B33D139C8C /* SPCodeDrawSystemIconPack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A1CB75E113C445E06A7F2F12406A07 /* SPCodeDrawSystemIconPack.swift */; };
+		8B022533E374C631E1C78FBBBBD4E960 /* SPDeviceOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D362AB1D8B947C34BF453625B966BE /* SPDeviceOrientation.swift */; };
+		8FC37EA5B996FB538C64DBA4D2C6151B /* SPGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F79DDF228EDBDDF60E57C59198C2E /* SPGradientView.swift */; };
+		8FD3EBBBF1622F58ABCF8671CBCD3432 /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3F7853B63D5C605D761AB52901A1DE /* ConfirmViewController.swift */; };
+		9159303811E1CF0D6FCE1B7C0BF0A26C /* ConfirmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9885E18B7138E9A274F32E815DADD642 /* ConfirmViewController.xib */; };
+		9355C99D95E7574A73581139228FF2DC /* SPUIImageViewExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73346CD9D1A2D28091FD2263F86AD50C /* SPUIImageViewExtenshion.swift */; };
+		9464927D89EFFB8E81E998551D9503F7 /* SPAudioIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2E85BA7B6E3F47D352467986AB83E4 /* SPAudioIconView.swift */; };
+		98976F4B66C8BD9E63499EE4CC04D80F /* SPBezierPathExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40A45B354D80894127044685115A678 /* SPBezierPathExtension.swift */; };
+		9899914CBE9D1B1FD6C17012EDBE4322 /* SPAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD73D5979D43E159010FFD6A472166C4 /* SPAudioPlayer.swift */; };
+		99E69112690ECFE3A85FE60A4D32CECA /* SPShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90400CBA9208C387625DDDAD5E04352E /* SPShadow.swift */; };
+		9A1AA77789CEC35B0C7D227916DBB182 /* SPPatternView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316C5330A16FAF8EA74D409287B58696 /* SPPatternView.swift */; };
+		9AF5773C5B2F49CA374BE6492370E0CC /* SPUITableViewControllerExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A669D346104580A7BD52312C47F6F439 /* SPUITableViewControllerExtenshion.swift */; };
+		9ED6107E0842271366CEF2ACFCBF065B /* SPRequestPermissionTwiceControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C066B71AFEC1D106D69A26754224B157 /* SPRequestPermissionTwiceControl.swift */; };
+		A43BEB552679DFA7584AD9C13A06F6EB /* SPUIScreenExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A749F99364F2024C5FA6FEA8449398A9 /* SPUIScreenExtension.swift */; };
+		AB2957583689DB471FCE26440C100A2E /* SPSocialIconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6888D029FCAA7E534BCFD934A20B24C /* SPSocialIconButton.swift */; };
+		AD7A2DEE862454077D531787198CBA5E /* Pods-PhotoLocator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 537892C40FA12F681B87FD961E4D5376 /* Pods-PhotoLocator-dummy.m */; };
+		B097E8B525DDBE65C30DAF5458957FE8 /* CroppingParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D54CB7A6DB81E5E1524B14417DE34D3 /* CroppingParameters.swift */; };
+		B2C028EF646AD25E74D587F29C90787D /* SPNativeLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A37DB54B63EC41251D40C6B32C29F36 /* SPNativeLoginViewController.swift */; };
+		B2D39ECDB7D3867DE47D33DEEB02C4DF /* SPCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3747B7CBCF3A55432E33E75078B5E54 /* SPCollectionViewCell.swift */; };
+		B4B16983A0931F9BE4366330C7959CB4 /* SPRequestPermissionLocationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412D1204F3163D833862783BBCD5015 /* SPRequestPermissionLocationHandler.swift */; };
+		B5A2E98F12B1630C0005F37460E7BD1A /* SPRequestPermissionDataViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E257474F59A30D31FF83A4B4CC2470 /* SPRequestPermissionDataViews.swift */; };
+		B661F30C3B3485D22AFAD90D7E1E1082 /* SPAnimationSpring.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53D31BCA76D8011347DFD6CAEE49E68 /* SPAnimationSpring.swift */; };
+		B9B068F22F11F2B595D2869F99692D21 /* SPBezierPathFigureLogos.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4CC46CF012007DB39D4CE01848254E /* SPBezierPathFigureLogos.swift */; };
+		B9E21402A04F02B1BC78E782E5DEF45C /* SPTextAndImageDinamicHeightTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F3AE0D2D1AF8763F041E28961E2698 /* SPTextAndImageDinamicHeightTableViewCell.swift */; };
+		BB359F345A7993AB222A69F6819ED139 /* SPStrideableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6417C903EF81914568D7EE514A9BA0 /* SPStrideableExtension.swift */; };
+		BD39EF4C7C9A9BDA97CABD4B34A7258E /* CameraShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A31CA3F9C88DE67A08B75BADCAF656F /* CameraShot.swift */; };
+		BEC25B377F64B46694E66410752FF95A /* SPRateAppBannerWithIndicatorDataSourceInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629634037E6A3558A50ED3F52B92DBB4 /* SPRateAppBannerWithIndicatorDataSourceInterface.swift */; };
+		C07BE1969ACEBBF1DF4C180DF03715FE /* SPShadowWithMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290D7270EA7AEFC9682A0A9CE0EE6FAA /* SPShadowWithMaskView.swift */; };
+		C086409963A078899B6343AEEC14A7A8 /* SPUILabelExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E620BC2EFF67D93E61A474C032D3DE30 /* SPUILabelExtenshion.swift */; };
+		C5AA50DCF34D3F018072C984EF18D366 /* CropOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE2C163FCEA1B0442A1CFD9670E3E81 /* CropOverlay.swift */; };
+		C6675BD4935689ADE88F67ADD3AE5C90 /* SPRequestPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BEE082DBDA3771B5A96FEEA27103F4 /* SPRequestPermission.swift */; };
+		C9434CB8478E2C48B41F44C5D1DB28C7 /* SPGradientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FCFD2E4ECADA8B2F21F2D52E4F55E2 /* SPGradientViewController.swift */; };
+		CB36F7C300062156BE8AD4E9DDB2E918 /* Pods-PhotoLocator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 505D65B62DF1C930EC5338E74AE91163 /* Pods-PhotoLocator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBF8C92C5692B682ECC8EF60FD304A19 /* VolumeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0001AA1A5A50BAB1921A0855E0AC9D10 /* VolumeControl.swift */; };
+		CD4C0C66B46C041896ED2E229C97DD17 /* SPRequestPermissionDataTexts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C19320CEB3E1DB89424EE2169982366 /* SPRequestPermissionDataTexts.swift */; };
+		CE6F2B33F00BAA6722AB08D6815A7BD5 /* SPUIAlertControllerExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B399BAA993DE74DE1BED66BDF704A0 /* SPUIAlertControllerExtenshion.swift */; };
+		CF011AF8E0AEC4435805CC095D647FA6 /* CameraViewAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB7EF5D9B5D825A08E2B42214EE1E6B6 /* CameraViewAssets.xcassets */; };
+		CF8D671A7CB5CB044E6A1981CB395681 /* SPInternetConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49004E3A0DDE8F913B2A4BEDF39C289 /* SPInternetConnection.swift */; };
+		D760078957C68319371DB5E25E7AB03D /* SPUITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269327E293FB4C68D481649FF451830B /* SPUITableViewCell.swift */; };
+		D7AA3BF5A1779EF5BC6F81AC4E4B78C5 /* SPTelegram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BDD0B83F0339EE677531772E58F8E1 /* SPTelegram.swift */; };
+		D7D9F452CB679E9A44DF91DA0A2B31F1 /* SPUIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80701A0C79FC59A58C88A6FF51810BC7 /* SPUIColorExtension.swift */; };
+		DA68E34E7E7D39961D4462EDF798C9A7 /* SingleImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE14A5CBFF6FB03A217D0CA07EA9E93F /* SingleImageFetcher.swift */; };
+		DA72D78A9118A62AFAF45A0AA7082CC4 /* SPSocialIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3B751E9788D3FBAFDE757C2E4A9ED6 /* SPSocialIconView.swift */; };
+		DC80453E1B3B4394A9F84DAD8888FC3A /* SPLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350BCD037234AFA2569E741AD6DD289F /* SPLayout.swift */; };
+		E1221A244219D5DA604B635F7740540A /* SPTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8642AFB7F00E4CB3B050CFA7B23869D3 /* SPTypes.swift */; };
+		E1B90A12480C8D258566F29ADCCD47F5 /* SPAnimationUpward.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9FA8A6F0716762DE7E346FB092A81B /* SPAnimationUpward.swift */; };
+		E2696EAB4B067CEA0F61C7BF0CCCDFAD /* SPRequestPermissionEventsDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819A9839C4BE7869F909097AA03A7892 /* SPRequestPermissionEventsDelegate.swift */; };
+		E29282E4A6960763F6FA662B0B65305C /* SPDeepButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F7E82E7FF4333243674FBD0923B050 /* SPDeepButton.swift */; };
+		E5C0D1C4F83AD0E33FDC889BC3E179A8 /* SPNativeLoginNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C19DB71A3C0C3A8B7DDB965541C08A /* SPNativeLoginNavigationController.swift */; };
+		E623C5B92DE537EA57EB916A78E261D8 /* SPRequestPermissionDialogInteractiveViewControllerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE61F4AB1C1591DA4A75C96F3D5986CC /* SPRequestPermissionDialogInteractiveViewControllerInterface.swift */; };
+		E784F8D8364F1D0CF52A1D2C97A8E348 /* SPNativeLoginCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D697E2C71D5B09A99E6515757896607 /* SPNativeLoginCodeViewController.swift */; };
+		EBA5DC1BCEB3ADEDFB32C7C225E2BC07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		EC056198370845290ED30DE12701B0DC /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCAF75AC5009501CCEFD8EC4820C373 /* CameraView.swift */; };
+		EC837A5227588840425AF38A5064E736 /* SPRequestPermissionDialogInteractivePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406AE67357DA4FA044C33672C9E25425 /* SPRequestPermissionDialogInteractivePresenter.swift */; };
+		ECE3883DAA288BBC9C640674E37F99C5 /* SPSystemIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C6E117606F0AE18C84A140C8EDA3F8 /* SPSystemIconView.swift */; };
+		EE77DCD20E836C23F782D39D02505887 /* CameraGlobals.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0328879165B6A123BCC1183DEB15F3E /* CameraGlobals.swift */; };
+		F04CC2DD06DAD63D8988CE22E0CC5B8E /* SPShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF95BEFFE4DF1BF5E13319D205859A7 /* SPShare.swift */; };
+		F15B58CE2790B4FDF2B96DD24D711862 /* SPAligmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64926652EC10511022AFD5D029580D09 /* SPAligmentView.swift */; };
+		F34160318E82DE16ABADE58822BBFE23 /* SPArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613285E2247AB57D0A62E15CB3C12837 /* SPArrayExtension.swift */; };
+		F424FAEE419E484166790E05D9DE2ED2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		F49D0B09F851CB7F7AD95EAD7C809284 /* SPHideWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB099081AC53E2AE1AAC06FC5CB43F9A /* SPHideWindow.swift */; };
+		F54202F23C54983E40F5BB1D2309F889 /* SPRateAppBannerWithIndicatorDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C002BDB8114B86A0D56F5D4AEEECAC44 /* SPRateAppBannerWithIndicatorDataSource.swift */; };
+		F6B7C96A9E89CFB46CE8BE6DE9C93016 /* PhotoLibraryAuthorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9110C8C213AC8733A5CD6B7BAD907AC0 /* PhotoLibraryAuthorizer.swift */; };
+		F71DE9F0737DF67A1BBB51869C858FDE /* SPOpener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98452394514B260938EA07300319C44A /* SPOpener.swift */; };
+		F74AACC77A8EDB4C792FA6210EE2331A /* SPTextFieldExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB91806372C11967A1182C7A5517811 /* SPTextFieldExtenshion.swift */; };
+		F7F567AEA993B9DE8F92436ABBC7EFB6 /* SPAppStoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C62E3D2CF7F4F56D96291D951F7D25 /* SPAppStoreData.swift */; };
+		F9829A83ED28959508478813D86C5A8B /* plist_flags.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC79AC8065D33B79CE026A771C9446C /* plist_flags.swift */; };
+		FAB23BC0A0156DB93D49CA64968230EC /* PermissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA2408BA0B2C039607FED2CD0602308 /* PermissionsView.swift */; };
+		FB4157476F06EF4A270BC56A0B51809A /* SPFormTextFiledTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322A64F26871C85FA75B8F6938E6E068 /* SPFormTextFiledTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5958435A717A231BADEC83DA660768FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5570ADD82640075EE63C4B974684196D;
+			remoteInfo = ALCameraViewController;
+		};
+		880F47D431E046E67B960A5839D9B957 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1153901EB06628ED07DD00C713033A0C;
+			remoteInfo = Sparrow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0001AA1A5A50BAB1921A0855E0AC9D10 /* VolumeControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VolumeControl.swift; path = ALCameraViewController/Utilities/VolumeControl.swift; sourceTree = "<group>"; };
+		0222269BC4908DBD5B59A2406A6DBD4C /* SPRequestPermissionDialogInteractiveViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPRequestPermissionDialogInteractiveViewController.swift; path = "sparrow/modules/request-permissions/managers/presenters/dialog/interactive/controller/SPRequestPermissionDialogInteractiveViewController.swift"; sourceTree = "<group>"; };
+		0412D1204F3163D833862783BBCD5015 /* SPRequestPermissionLocationHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPRequestPermissionLocationHandler.swift; path = "sparrow/modules/request-permissions/managers/permissions/handlers/SPRequestPermissionLocationHandler.swift"; sourceTree = "<group>"; };
+		0444143016DBC15F85A1491F3A3BD8FF /* SPRateAppBannerWithIndicatorController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPRateAppBannerWithIndicatorController.swift; path = "sparrow/modules/rate-app/types/dialog/banner-with-indicator/controller/SPRateAppBannerWithIndicatorController.swift"; sourceTree = "<group>"; };
+		0C28EDFF303075D05610D8FF85C443A5 /* SPCollectionViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPCollectionViewLayout.swift; path = sparrow/ui/views/collectionViews/layouts/SPCollectionViewLayout.swift; sourceTree = "<group>"; };
+		0DABDE8493210570898ADBAFC4F8EE30 /* ALCameraViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALCameraViewController-dummy.m"; sourceTree = "<group>"; };
+		0DD38BD048CC1AD983BA6E2819D3BB0A /* SPLaunchAnimationSlideExtenshion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPLaunchAnimationSlideExtenshion.swift; path = sparrow/launch/animation/slide/SPLaunchAnimationSlideExtenshion.swift; sourceTree = "<group>"; };
+		0E210541BA26CDFD5A9B0E7C28CA6377 /* Sparrow.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Sparrow.xcconfig; sourceTree = "<group>"; };
+		109C440101B5D918D18B6D77E4EC9761 /* SPTitleWithSubtitleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPTitleWithSubtitleView.swift; path = sparrow/ui/views/views/SPTitleWithSubtitleView.swift; sourceTree = "<group>"; };
+		16E257474F59A30D31FF83A4B4CC2470 /* SPRequestPermissionDataViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPRequestPermissionDataViews.swift; path = "sparrow/modules/request-permissions/data/SPRequestPermissionDataViews.swift"; sourceTree = "<group>"; };
+		18B24845111D8C741105E926A745D316 /* SPAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAnimation.swift; path = sparrow/animation/SPAnimation.swift; sourceTree = "<group>"; };
+		198EBA4995FAE01AF2FADEA52E079A39 /* Pods-PhotoLocator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PhotoLocator.modulemap"; sourceTree = "<group>"; };
+		1A37DB54B63EC41251D40C6B32C29F36 /* SPNativeLoginViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPNativeLoginViewController.swift; path = sparrow/ui/controllers/login/SPNativeLoginViewController.swift; sourceTree = "<group>"; };
+		1B93F0E7E422BB7AA8A3A9C83A77DAA5 /* Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = ALCameraViewController/Utilities/Utilities.swift; sourceTree = "<group>"; };
+		1D6417C903EF81914568D7EE514A9BA0 /* SPStrideableExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStrideableExtension.swift; path = sparrow/extension/SPStrideableExtension.swift; sourceTree = "<group>"; };
+		1F2E85BA7B6E3F47D352467986AB83E4 /* SPAudioIconView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAudioIconView.swift; path = "sparrow/ui/views/views/code-draw/SPAudioIconView.swift"; sourceTree = "<group>"; };
+		20E94A7410BB38DD0C2A30E5EFFCB0AD /* ALCameraViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ALCameraViewController.modulemap; sourceTree = "<group>"; };
+		219325D9604AE683446F3C1EB8F03BFE /* SPRequestPermissionNativePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPRequestPermissionNativePresenter.swift; path = "sparrow/modules/request-permissions/managers/presenters/native/SPRequestPermissionNativePresenter.swift"; sourceTree = "<group>"; };
+		21BDD0B83F0339EE677531772E58F8E1 /* SPTelegram.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPTelegram.swift; path = sparrow/social/telegram/SPTelegram.swift; sourceTree = "<group>"; };
+		233A86E6DC7C9C57DF55E92D4B23D174 /* SPRequestPermissionDataColors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPRequestPermissionDataColors.swift; path = "sparrow/modules/request-permissions/data/SPRequestPermissionDataColors.swift"; sourceTree = "<group>"; };
+		23739E828C151EF9F29E02E99862BF90 /* SPBezierPathFigure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPBezierPathFigure.swift; path = "sparrow/ui-elements/bezier-paths/SPBezierPathFigure.swift"; sourceTree = "<group>"; };
+		24BEE082DBDA3771B5A96FEEA27103F4 /* SPRequestPermission.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPRequestPermission.swift; path = "sparrow/modules/request-permissions/SPRequestPermission.swift"; sourceTree = "<group>"; };
+		269327E293FB4C68D481649FF451830B /* SPUITableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPUITableViewCell.swift; path = sparrow/extension/SPUITableViewCell.swift; sourceTree = "<group>"; };
+		27C351149377A1D66642B4D35E232C22 /* SPDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPDevice.swift; path = sparrow/device/SPDevice.swift; sourceTree = "<group>"; };
+		281D21265E68E0080A9EB53D7632FB3E /* SPBadge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPBadge.swift; path = sparrow/badge/SPBadge.swift; sourceTree = "<group>"; };
+		290D7270EA7AEFC9682A0A9CE0EE6FAA /* SPShadowWithMaskView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPShadowWithMaskView.swift; path = sparrow/ui/views/views/SPShadowWithMaskView.swift; sourceTree = "<group>"; };
+		2A3067BF76E0963BFB80381811B44A07 /* SPRequestPermissionDialogInteractiveView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPRequestPermissionDialogInteractiveView.swift; path = "sparrow/modules/request-permissions/managers/presenters/dialog/interactive/views/SPRequestPermissionDialogInteractiveView.swift"; sourceTree = "<group>"; };
+		2B5E1A455B74988A9BC6C5A242811797 /* ImageCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCell.swift; path = ALCameraViewController/Views/ImageCell.swift; sourceTree = "<group>"; };
+		2D6F29C2B9D3133746DBEDC69396E54B /* SPHiderViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPHiderViewController.swift; path = sparrow/ui/controllers/SPHiderViewController.swift; sourceTree = "<group>"; };
+		315DE0EDF930AEFA72593D6A824B374A /* Sparrow-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Sparrow-umbrella.h"; sourceTree = "<group>"; };
+		316C5330A16FAF8EA74D409287B58696 /* SPPatternView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPatternView.swift; path = sparrow/ui/views/views/SPPatternView.swift; sourceTree = "<group>"; };
+		322A64F26871C85FA75B8F6938E6E068 /* SPFormTextFiledTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPFormTextFiledTableViewCell.swift; path = sparrow/ui/views/tableViews/cell/form/SPFormTextFiledTableViewCell.swift; sourceTree = "<group>"; };
+		33F91D7A0E60309CEB2361756E5E6B4B /* SPUIViewControllerExtenshion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPUIViewControllerExtenshion.swift; path = sparrow/extension/SPUIViewControllerExtenshion.swift; sourceTree = "<group>"; };
+		3421F9FABE2F8F1F0E5C17A172975EF2 /* SPLaunchAnimationTwitterExtenshion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPLaunchAnimationTwitterExtenshion.swift; path = sparrow/launch/animation/asTwitter/SPLaunchAnimationTwitterExtenshion.swift; sourceTree = "<group>"; };
+		350BCD037234AFA2569E741AD6DD289F /* SPLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPLayout.swift; path = sparrow/layout/SPLayout.swift; sourceTree = "<group>"; };
+		375AE89BF809A71A79E22DD59D27E0D8 /* SPBezierPathFigurePatterns.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPBezierPathFigurePatterns.swift; path = "sparrow/ui-elements/bezier-paths/pattern/SPBezierPathFigurePatterns.swift"; sourceTree = "<group>"; };
+		38D9CC98ABCD63C00FD6331D77064271 /* PhotoLibraryViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoLibraryViewController.swift; path = ALCameraViewController/ViewController/PhotoLibraryViewController.swift; sourceTree = "<group>"; };
+		3D697E2C71D5B09A99E6515757896607 /* SPNativeLoginCodeViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPNativeLoginCodeViewController.swift; path = sparrow/ui/controllers/login/SPNativeLoginCodeViewController.swift; sourceTree = "<group>"; };
+		3D7FB56FBE707C007E70049C3652850D /* SPRandom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPRandom.swift; path = sparrow/random/SPRandom.swift; sourceTree = "<group>"; };
+		406AE67357DA4FA044C33672C9E25425 /* SPRequestPermissionDialogInteractivePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPRequestPermissionDialogInteractivePresenter.swift; path = "sparrow/modules/request-permissions/managers/presenters/dialog/interactive/presenter/SPRequestPermissionDialogInteractivePresenter.swift"; sourceTree = "<group>"; };
+		44F3AE0D2D1AF8763F041E28961E2698 /* SPTextAndImageDinamicHeightTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPTextAndImageDinamicHeightTableViewCell.swift; path = sparrow/ui/views/tableViews/cell/SPTextAndImageDinamicHeightTableViewCell.swift; sourceTree = "<group>"; };
+		461707A3933D1CE875F5C1EB7B861DF0 /* SPUIButtonExtenshion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPUIButtonExtenshion.swift; path = sparrow/extension/SPUIButtonExtenshion.swift; sourceTree = "<group>"; };
+		4658CC46828B3ED6A0DA26C78CEA1B2B /* SPUIViewExtenshion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPUIViewExtenshion.swift; path = sparrow/extension/SPUIViewExtenshion.swift; sourceTree = "<group>"; };
+		47B09481B5426D326DADF513108CEBD9 /* SPConfirmActionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPConfirmActionViewController.swift; path = sparrow/ui/controllers/SPConfirmActionViewController.swift; sourceTree = "<group>"; };
+		4A31CA3F9C88DE67A08B75BADCAF656F /* CameraShot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraShot.swift; path = ALCameraViewController/Utilities/CameraShot.swift; sourceTree = "<group>"; };
+		4BD4992300207EACC51D861091F960CA /* SPRequestPermissionDialogInteractiveDataSourceInterface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPRequestPermissionDialogInteractiveDataSourceInterface.swift; path = "sparrow/modules/request-permissions/managers/presenters/dialog/interactive/protocols/SPRequestPermissionDialogInteractiveDataSourceInterface.swift"; sourceTree = "<group>"; };
+		4C19320CEB3E1DB89424EE2169982366 /* SPRequestPermissionDataTexts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPRequestPermissionDataTexts.swift; path = "sparrow/modules/request-permissions/data/SPRequestPermissionDataTexts.swift"; sourceTree = "<group>"; };
+		4D54CB7A6DB81E5E1524B14417DE34D3 /* CroppingParameters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CroppingParameters.swift; path = ALCameraViewController/Utilities/CroppingParameters.swift; sourceTree = "<group>"; };
+		4DAD1FE4ACAA5099AC0CA1AAF618F18E /* SPRequestPermissionTwiceControlBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPRequestPermissionTwiceControlBase.swift; path = "sparrow/modules/request-permissions/managers/presenters/universal/controls/SPRequestPermissionTwiceControlBase.swift"; sourceTree = "<group>"; };
+		4E008E526798DB8511DCC4BB44C31DBF /* Pods-PhotoLocator-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PhotoLocator-acknowledgements.plist"; sourceTree = "<group>"; };
+		4EA2408BA0B2C039607FED2CD0602308 /* PermissionsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PermissionsView.swift; path = ALCameraViewController/Views/PermissionsView.swift; sourceTree = "<group>"; };
+		505D65B62DF1C930EC5338E74AE91163 /* Pods-PhotoLocator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PhotoLocator-umbrella.h"; sourceTree = "<group>"; };
+		514B19D1FA8141B48C9849284C852743 /* Pods_PhotoLocator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PhotoLocator.framework; path = "Pods-PhotoLocator.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A1CB75E113C445E06A7F2F12406A07 /* SPCodeDrawSystemIconPack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPCodeDrawSystemIconPack.swift; path = "sparrow/code-draw/SPCodeDrawSystemIconPack.swift"; sourceTree = "<group>"; };
+		5329DCD8DA72BF2DBFED9A307659A2C6 /* ALCameraViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALCameraViewController-umbrella.h"; sourceTree = "<group>"; };
+		537892C40FA12F681B87FD961E4D5376 /* Pods-PhotoLocator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PhotoLocator-dummy.m"; sourceTree = "<group>"; };
+		545204A0CCFD0E10A4BE49373B79EF98 /* SPGradientGradeWithBlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPGradientGradeWithBlurView.swift; path = sparrow/ui/views/views/SPGradientGradeWithBlurView.swift; sourceTree = "<group>"; };
+		54D5A665A5BB25E3E722F2CA8B740BE2 /* SPStyleKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStyleKit.swift; path = "sparrow/style-kit/SPStyleKit.swift"; sourceTree = "<group>"; };
+		54E3D847483C4A9E46C68CB199AA79DB /* ImageFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageFetcher.swift; path = ALCameraViewController/Utilities/ImageFetcher.swift; sourceTree = "<group>"; };
+		5557FFAA8A20250DA28D2F5539F27E7E /* Sparrow.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Sparrow.modulemap; sourceTree = "<group>"; };
+		56916991B3D90CF7758C7998BD032CE4 /* UIButtonExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButtonExtensions.swift; path = ALCameraViewController/Utilities/UIButtonExtensions.swift; sourceTree = "<group>"; };
+		58C62E3D2CF7F4F56D96291D951F7D25 /* SPAppStoreData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAppStoreData.swift; path = "sparrow/modules/appstore-data/SPAppStoreData.swift"; sourceTree = "<group>"; };
+		5EC1153CD07F66003093DE37927B24A5 /* SPRateApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPRateApp.swift; path = "sparrow/modules/rate-app/SPRateApp.swift"; sourceTree = "<group>"; };
+		60ED6411CA0B1656B3B3BBA28D011A8C /* SPRequestPermissionDataFonts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPRequestPermissionDataFonts.swift; path = "sparrow/modules/request-permissions/data/SPRequestPermissionDataFonts.swift"; sourceTree = "<group>"; };
+		613285E2247AB57D0A62E15CB3C12837 /* SPArrayExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPArrayExtension.swift; path = sparrow/extension/SPArrayExtension.swift; sourceTree = "<group>"; };
+		6192517D74280CA39CAC9D2B4957E249 /* SPCGRectExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPCGRectExtension.swift; path = sparrow/extension/SPCGRectExtension.swift; sourceTree = "<group>"; };
+		629634037E6A3558A50ED3F52B92DBB4 /* SPRateAppBannerWithIndicatorDataSourceInterface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPRateAppBannerWithIndicatorDataSourceInterface.swift; path = "sparrow/modules/rate-app/types/dialog/banner-with-indicator/protocols/SPRateAppBannerWithIndicatorDataSourceInterface.swift"; sourceTree = "<group>"; };
+		64926652EC10511022AFD5D029580D09 /* SPAligmentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAligmentView.swift; path = sparrow/ui/views/views/SPAligmentView.swift; sourceTree = "<group>"; };
+		64940DF6682EFEDACF271BFD8CBD1B1B /* SPLaunchAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPLaunchAnimation.swift; path = sparrow/launch/animation/SPLaunchAnimation.swift; sourceTree = "<group>"; };
+		690A6B1D44C265EB89B0D5CAD1874349 /* ALCameraViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALCameraViewController-prefix.pch"; sourceTree = "<group>"; };
+		699F79DDF228EDBDDF60E57C59198C2E /* SPGradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPGradientView.swift; path = sparrow/ui/views/views/SPGradientView.swift; sourceTree = "<group>"; };
+		6A3F7853B63D5C605D761AB52901A1DE /* ConfirmViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfirmViewController.swift; path = ALCameraViewController/ViewController/ConfirmViewController.swift; sourceTree = "<group>"; };
+		6B23534D1745E895D3A7F5AD04A8F191 /* SPDownloadingUIImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPDownloadingUIImageView.swift; path = sparrow/ui/views/views/SPDownloadingUIImageView.swift; sourceTree = "<group>"; };
+		701844AC076458C89050E14C27D63003 /* CameraView.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = CameraView.strings; path = ALCameraViewController/CameraView.strings; sourceTree = "<group>"; };
+		73346CD9D1A2D28091FD2263F86AD50C /* SPUIImageViewExtenshion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPUIImageViewExtenshion.swift; path = sparrow/extension/SPUIImageViewExtenshion.swift; sourceTree = "<group>"; };
+		76F9C24821C26172411D9009EDE8F4F1 /* SPBlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPBlurView.swift; path = sparrow/ui/views/views/SPBlurView.swift; sourceTree = "<group>"; };
+		77EBA079FD0A826B66F7E1DD4B3C616B /* SPDelay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPDelay.swift; path = sparrow/delay/SPDelay.swift; sourceTree = "<group>"; };
+		78C1E89BD5D69361813D7A2353158E4A /* Sparrow-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Sparrow-prefix.pch"; sourceTree = "<group>"; };
+		7A667F4503D2DFC3C2F6E4E20ADD0CD0 /* Pods-PhotoLocator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoLocator.release.xcconfig"; sourceTree = "<group>"; };
+		7E9ED1A548E80DC5218CEAF4ADF7DDF2 /* SingleImageSaver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SingleImageSaver.swift; path = ALCameraViewController/Utilities/SingleImageSaver.swift; sourceTree = "<group>"; };
+		7F7964028B8C7CCB8A93D366DBBF8AAB /* SPSpotlight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPSpotlight.swift; path = "sparrow/сore-spotlight/SPSpotlight.swift"; sourceTree = "<group>"; };
+		80701A0C79FC59A58C88A6FF51810BC7 /* SPUIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPUIColorExtension.swift; path = sparrow/extension/SPUIColorExtension.swift; sourceTree = "<group>"; };
+		819A9839C4BE7869F909097AA03A7892 /* SPRequestPermissionEventsDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPRequestPermissionEventsDelegate.swift; path = "sparrow/modules/request-permissions/protocols/SPRequestPermissionEventsDelegate.swift"; sourceTree = "<group>"; };
+		8308D3CA5B3C141CB77291B0F1CEEF49 /* SPCodeDrawSocialIconPack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPCodeDrawSocialIconPack.swift; path = "sparrow/code-draw/SPCodeDrawSocialIconPack.swift"; sourceTree = "<group>"; };
+		83C19DB71A3C0C3A8B7DDB965541C08A /* SPNativeLoginNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPNativeLoginNavigationController.swift; path = sparrow/ui/controllers/login/SPNativeLoginNavigationController.swift; sourceTree = "<group>"; };
+		8642AFB7F00E4CB3B050CFA7B23869D3 /* SPTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPTypes.swift; path = sparrow/types/SPTypes.swift; sourceTree = "<group>"; };
+		8CE2810AF751AFAFEF8680EC0322E950 /* SPFormBottomTextTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPFormBottomTextTableViewCell.swift; path = sparrow/ui/views/tableViews/cell/form/SPFormBottomTextTableViewCell.swift; sourceTree = "<group>"; };
+		8EDCE9DA6A9DDF830D44A0544B3CD643 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EE1EDD9E2A7AD276A6EDFDDCD97C08F /* SPNativeStyleKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPNativeStyleKit.swift; path = "sparrow/style-kit/SPNativeStyleKit.swift"; sourceTree = "<group>"; };
+		90400CBA9208C387625DDDAD5E04352E /* SPShadow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPShadow.swift; path = "sparrow/ui-kit/shadow/SPShadow.swift"; sourceTree = "<group>"; };
+		9110C8C213AC8733A5CD6B7BAD907AC0 /* PhotoLibraryAuthorizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoLibraryAuthorizer.swift; path = ALCameraViewController/Utilities/PhotoLibraryAuthorizer.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		954B266BF6901DFEC651E0B0297A5C5E /* SPBezierPathFigureDraw.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPBezierPathFigureDraw.swift; path = "sparrow/ui-elements/bezier-paths/icons/SPBezierPathFigureDraw.swift"; sourceTree = "<group>"; };
+		98452394514B260938EA07300319C44A /* SPOpener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPOpener.swift; path = sparrow/opener/SPOpener.swift; sourceTree = "<group>"; };
+		9885E18B7138E9A274F32E815DADD642 /* ConfirmViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ConfirmViewController.xib; path = ALCameraViewController/ViewController/ConfirmViewController.xib; sourceTree = "<group>"; };
+		98AD4E78850016D33A528777D4175AFF /* SPRequestPermissionDialogInteractivePresenterInterface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPRequestPermissionDialogInteractivePresenterInterface.swift; path = "sparrow/modules/request-permissions/managers/presenters/dialog/interactive/protocols/SPRequestPermissionDialogInteractivePresenterInterface.swift"; sourceTree = "<group>"; };
+		9B451965159B843EE5789BF8DC365748 /* SPRateAppBannerWithIndicatorTwiceButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPRateAppBannerWithIndicatorTwiceButton.swift; path = "sparrow/modules/rate-app/types/dialog/banner-with-indicator/views/SPRateAppBannerWithIndicatorTwiceButton.swift"; sourceTree = "<group>"; };
+		A01870B34A3E61C2D00FF4791332F9E3 /* SPFormButtonTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPFormButtonTableViewCell.swift; path = sparrow/ui/views/tableViews/cell/form/SPFormButtonTableViewCell.swift; sourceTree = "<group>"; };
+		A475406FDE93A305C58C71BD71D170D1 /* SPShareView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPShareView.swift; path = sparrow/ui/views/views/SPShareView.swift; sourceTree = "<group>"; };
+		A61EDEE847C6AFBEB3905752CFEA59BD /* CameraViewControllerConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraViewControllerConstraint.swift; path = ALCameraViewController/ViewController/CameraViewControllerConstraint.swift; sourceTree = "<group>"; };
+		A669D346104580A7BD52312C47F6F439 /* SPUITableViewControllerExtenshion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPUITableViewControllerExtenshion.swift; path = sparrow/extension/SPUITableViewControllerExtenshion.swift; sourceTree = "<group>"; };
+		A6B01BBB2A81F1B91CECD882D2A4B4C0 /* SPDialogSwipeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPDialogSwipeController.swift; path = sparrow/ui/controllers/SPDialogSwipeController.swift; sourceTree = "<group>"; };
+		A70EB0892B918FEB3E62DDFC6D3615C7 /* SPAudio.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAudio.swift; path = sparrow/audio/SPAudio.swift; sourceTree = "<group>"; };
+		A749F99364F2024C5FA6FEA8449398A9 /* SPUIScreenExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPUIScreenExtension.swift; path = sparrow/extension/SPUIScreenExtension.swift; sourceTree = "<group>"; };
+		ABAC002E5B05288F643A6CFD608D2532 /* SPUITextFieldExtenshion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPUITextFieldExtenshion.swift; path = sparrow/extension/SPUITextFieldExtenshion.swift; sourceTree = "<group>"; };
+		AC94E5121B5D576DC85BD5B02083288D /* SPRoundButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPRoundButton.swift; path = sparrow/ui/controls/buttons/SPRoundButton.swift; sourceTree = "<group>"; };
+		ACE2C163FCEA1B0442A1CFD9670E3E81 /* CropOverlay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropOverlay.swift; path = ALCameraViewController/Views/CropOverlay.swift; sourceTree = "<group>"; };
+		ACF95BEFFE4DF1BF5E13319D205859A7 /* SPShare.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPShare.swift; path = sparrow/share/SPShare.swift; sourceTree = "<group>"; };
+		AE61F4AB1C1591DA4A75C96F3D5986CC /* SPRequestPermissionDialogInteractiveViewControllerInterface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPRequestPermissionDialogInteractiveViewControllerInterface.swift; path = "sparrow/modules/request-permissions/managers/presenters/dialog/interactive/protocols/SPRequestPermissionDialogInteractiveViewControllerInterface.swift"; sourceTree = "<group>"; };
+		AFCAF75AC5009501CCEFD8EC4820C373 /* CameraView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraView.swift; path = ALCameraViewController/Views/CameraView.swift; sourceTree = "<group>"; };
+		B0DA0543D30BC616C2CF6F6CF7FCDBEC /* SPRateAppEventsDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPRateAppEventsDelegate.swift; path = "sparrow/modules/rate-app/protocols/SPRateAppEventsDelegate.swift"; sourceTree = "<group>"; };
+		B1D362AB1D8B947C34BF453625B966BE /* SPDeviceOrientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPDeviceOrientation.swift; path = sparrow/device/SPDeviceOrientation.swift; sourceTree = "<group>"; };
+		B1FCFD2E4ECADA8B2F21F2D52E4F55E2 /* SPGradientViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPGradientViewController.swift; path = sparrow/ui/controllers/SPGradientViewController.swift; sourceTree = "<group>"; };
+		B3D0C56DBA556C6C9593ABF47C3F411E /* SPBezierPathFigureIcons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPBezierPathFigureIcons.swift; path = "sparrow/ui-elements/bezier-paths/icons/SPBezierPathFigureIcons.swift"; sourceTree = "<group>"; };
+		B53D31BCA76D8011347DFD6CAEE49E68 /* SPAnimationSpring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAnimationSpring.swift; path = sparrow/animation/SPAnimationSpring.swift; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B66B018B64C6E50F1EFB6543D652AD4F /* SPPlayCircleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPlayCircleButton.swift; path = sparrow/ui/controls/buttons/SPPlayCircleButton.swift; sourceTree = "<group>"; };
+		B71F5E95CABBA7B88EDBBDD73501F744 /* SPConstraintsAssistent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPConstraintsAssistent.swift; path = sparrow/constraints/SPConstraintsAssistent.swift; sourceTree = "<group>"; };
+		BAD6BA051473371EEE2AAE67458D1AEC /* SPDownloadingButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPDownloadingButton.swift; path = sparrow/ui/controls/buttons/SPDownloadingButton.swift; sourceTree = "<group>"; };
+		BCE21A09CAAEFA4DC2DAFB6E5455E812 /* SPStatusBarManagerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPStatusBarManagerViewController.swift; path = sparrow/ui/controllers/SPStatusBarManagerViewController.swift; sourceTree = "<group>"; };
+		BD4CC46CF012007DB39D4CE01848254E /* SPBezierPathFigureLogos.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPBezierPathFigureLogos.swift; path = "sparrow/ui-elements/bezier-paths/logos/SPBezierPathFigureLogos.swift"; sourceTree = "<group>"; };
+		BD948EA3B6AB550E6BFE85D72866DBB2 /* SPTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPTableViewCell.swift; path = sparrow/ui/views/tableViews/cell/SPTableViewCell.swift; sourceTree = "<group>"; };
+		BE14A5CBFF6FB03A217D0CA07EA9E93F /* SingleImageFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SingleImageFetcher.swift; path = ALCameraViewController/Utilities/SingleImageFetcher.swift; sourceTree = "<group>"; };
+		BEB91806372C11967A1182C7A5517811 /* SPTextFieldExtenshion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPTextFieldExtenshion.swift; path = sparrow/extension/SPTextFieldExtenshion.swift; sourceTree = "<group>"; };
+		C002BDB8114B86A0D56F5D4AEEECAC44 /* SPRateAppBannerWithIndicatorDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPRateAppBannerWithIndicatorDataSource.swift; path = "sparrow/modules/rate-app/types/dialog/banner-with-indicator/data-source/SPRateAppBannerWithIndicatorDataSource.swift"; sourceTree = "<group>"; };
+		C066B71AFEC1D106D69A26754224B157 /* SPRequestPermissionTwiceControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPRequestPermissionTwiceControl.swift; path = "sparrow/modules/request-permissions/managers/presenters/universal/controls/SPRequestPermissionTwiceControl.swift"; sourceTree = "<group>"; };
+		C40A45B354D80894127044685115A678 /* SPBezierPathExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPBezierPathExtension.swift; path = sparrow/extension/SPBezierPathExtension.swift; sourceTree = "<group>"; };
+		C4C38D4F2D95758356753ACC86EF39A0 /* SPCGSizeExtenshion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPCGSizeExtenshion.swift; path = sparrow/extension/SPCGSizeExtenshion.swift; sourceTree = "<group>"; };
+		C6888D029FCAA7E534BCFD934A20B24C /* SPSocialIconButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPSocialIconButton.swift; path = sparrow/ui/controls/buttons/SPSocialIconButton.swift; sourceTree = "<group>"; };
+		C6C6E117606F0AE18C84A140C8EDA3F8 /* SPSystemIconView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPSystemIconView.swift; path = "sparrow/ui/views/views/code-draw/SPSystemIconView.swift"; sourceTree = "<group>"; };
+		C76467E9016B54BE74AA865AB020B6B2 /* SPPermissions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissions.swift; path = "sparrow/modules/request-permissions/managers/permissions/SPPermissions.swift"; sourceTree = "<group>"; };
+		C81F9085F2978DFD6F415C66CA66A359 /* Pods-PhotoLocator-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhotoLocator-resources.sh"; sourceTree = "<group>"; };
+		C8A6A7C162ADDC5B1827E14DF6EBA1EC /* SPNativeOS11Button.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPNativeOS11Button.swift; path = sparrow/ui/controls/buttons/SPNativeOS11Button.swift; sourceTree = "<group>"; };
+		C9B399BAA993DE74DE1BED66BDF704A0 /* SPUIAlertControllerExtenshion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPUIAlertControllerExtenshion.swift; path = sparrow/extension/SPUIAlertControllerExtenshion.swift; sourceTree = "<group>"; };
+		CA20001DC0AA4FF9AE13CD24A23AD05C /* SPCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPCollectionView.swift; path = sparrow/ui/views/collectionViews/collectionViews/SPCollectionView.swift; sourceTree = "<group>"; };
+		CB7EF5D9B5D825A08E2B42214EE1E6B6 /* CameraViewAssets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = CameraViewAssets.xcassets; path = ALCameraViewController/CameraViewAssets.xcassets; sourceTree = "<group>"; };
+		CC2EDDD3E68B6EADCF5AB7A251074AA9 /* Pods-PhotoLocator-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PhotoLocator-frameworks.sh"; sourceTree = "<group>"; };
+		CE1BA9C721A39DF4CAEB69FF8B94869D /* SPRhombusPatternView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPRhombusPatternView.swift; path = sparrow/ui/views/patternViews/SPRhombusPatternView.swift; sourceTree = "<group>"; };
+		CEED03AB404115E76CE6BEA2E8540DF8 /* SPPermissionsManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPPermissionsManager.swift; path = "sparrow/modules/request-permissions/managers/permissions/SPPermissionsManager.swift"; sourceTree = "<group>"; };
+		CF9FA8A6F0716762DE7E346FB092A81B /* SPAnimationUpward.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAnimationUpward.swift; path = sparrow/animation/SPAnimationUpward.swift; sourceTree = "<group>"; };
+		D0040ED85F7368FAFA74C0285087E32E /* SPGradeWithBlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPGradeWithBlurView.swift; path = sparrow/ui/views/views/SPGradeWithBlurView.swift; sourceTree = "<group>"; };
+		D1D4E74FE34F20AFCFE93ADF103C992F /* SPAnimationAlpha.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAnimationAlpha.swift; path = sparrow/animation/SPAnimationAlpha.swift; sourceTree = "<group>"; };
+		D3747B7CBCF3A55432E33E75078B5E54 /* SPCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPCollectionViewCell.swift; path = sparrow/ui/views/collectionViews/cells/SPCollectionViewCell.swift; sourceTree = "<group>"; };
+		D49004E3A0DDE8F913B2A4BEDF39C289 /* SPInternetConnection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPInternetConnection.swift; path = sparrow/internetConnection/SPInternetConnection.swift; sourceTree = "<group>"; };
+		D4F6FA93B9D6AE9959CE305650C3FD79 /* Pods-PhotoLocator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PhotoLocator-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D511F282C9625AAC0E3DC7A7B0E54548 /* SPUIDeviceExtenshion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPUIDeviceExtenshion.swift; path = sparrow/extension/SPUIDeviceExtenshion.swift; sourceTree = "<group>"; };
+		D73EE2911DBF689F0F5CB56153C5CC65 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D956FA6ED77E6A8D60272289201C0062 /* ALCameraViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ALCameraViewController.framework; path = ALCameraViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2B2582C123DC2E608D7360FDE9D9B3 /* SPIndicationBannerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPIndicationBannerController.swift; path = sparrow/ui/controllers/SPIndicationBannerController.swift; sourceTree = "<group>"; };
+		DB6DE29817E7D09F1950776CFC7D36AA /* SPUIFontExtenshion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPUIFontExtenshion.swift; path = sparrow/fonts/SPUIFontExtenshion.swift; sourceTree = "<group>"; };
+		DB7859462BA1668D911764A0295A1683 /* SPCodeDraw.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPCodeDraw.swift; path = "sparrow/code-draw/SPCodeDraw.swift"; sourceTree = "<group>"; };
+		DC3B751E9788D3FBAFDE757C2E4A9ED6 /* SPSocialIconView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPSocialIconView.swift; path = "sparrow/ui/views/views/code-draw/SPSocialIconView.swift"; sourceTree = "<group>"; };
+		DC6C7C6DDC3FA535C8D7CC72A1757C8A /* Sparrow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Sparrow-dummy.m"; sourceTree = "<group>"; };
+		DD73D5979D43E159010FFD6A472166C4 /* SPAudioPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAudioPlayer.swift; path = sparrow/audio/SPAudioPlayer.swift; sourceTree = "<group>"; };
+		DE2FF77273B9E2B45BE02D4BCF06EA30 /* SPSystemIconButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPSystemIconButton.swift; path = sparrow/ui/controls/buttons/SPSystemIconButton.swift; sourceTree = "<group>"; };
+		DF43601D226E663A096DEEE500521A3C /* SPShadowDeep.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPShadowDeep.swift; path = "sparrow/ui-kit/shadow/SPShadowDeep.swift"; sourceTree = "<group>"; };
+		DF4D7EDC92168870ABC908DB1EC42A42 /* CameraViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = ALCameraViewController/ViewController/CameraViewController.swift; sourceTree = "<group>"; };
+		E0328879165B6A123BCC1183DEB15F3E /* CameraGlobals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraGlobals.swift; path = ALCameraViewController/Utilities/CameraGlobals.swift; sourceTree = "<group>"; };
+		E5EDC91BCDE7D15416E85F1E1EECA8C9 /* SPUIImageExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPUIImageExtension.swift; path = sparrow/extension/SPUIImageExtension.swift; sourceTree = "<group>"; };
+		E603B801C095B35718EF67F9B6FFDC4E /* SPAppStoreActionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAppStoreActionButton.swift; path = sparrow/ui/controls/buttons/SPAppStoreActionButton.swift; sourceTree = "<group>"; };
+		E620BC2EFF67D93E61A474C032D3DE30 /* SPUILabelExtenshion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPUILabelExtenshion.swift; path = sparrow/ui/views/views/SPUILabelExtenshion.swift; sourceTree = "<group>"; };
+		E6BF0B2A56519925A15AE15D0B130ACA /* Sparrow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Sparrow.framework; path = Sparrow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6DB36555AD23A2E1BF179FAE0ABD0E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8F7E82E7FF4333243674FBD0923B050 /* SPDeepButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPDeepButton.swift; path = sparrow/ui/views/views/SPDeepButton.swift; sourceTree = "<group>"; };
+		E9DFBD2BAD34EFB4474387DD7CE60CBB /* ALCameraViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALCameraViewController.xcconfig; sourceTree = "<group>"; };
+		EB099081AC53E2AE1AAC06FC5CB43F9A /* SPHideWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPHideWindow.swift; path = "sparrow/ui-kit/hide-window/SPHideWindow.swift"; sourceTree = "<group>"; };
+		EB29AEA6DDAD11FFA7C5EEE3971DE387 /* SPDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPDownloader.swift; path = sparrow/downloader/SPDownloader.swift; sourceTree = "<group>"; };
+		F725174CAF856B14A3D1F53CBCA3E558 /* SPCodeDrawAudioIconPack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPCodeDrawAudioIconPack.swift; path = "sparrow/code-draw/SPCodeDrawAudioIconPack.swift"; sourceTree = "<group>"; };
+		FA787B57200D187B46EED06AA3AE5197 /* UIViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtensions.swift; path = ALCameraViewController/Utilities/UIViewExtensions.swift; sourceTree = "<group>"; };
+		FAC36CF7F187D1D5E474D55978DB5B77 /* SPRequestPermissionDialogInteractiveDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPRequestPermissionDialogInteractiveDataSource.swift; path = "sparrow/modules/request-permissions/managers/presenters/dialog/interactive/data-source/SPRequestPermissionDialogInteractiveDataSource.swift"; sourceTree = "<group>"; };
+		FAD84244563CF2EC3FAA25F32D2E566C /* Pods-PhotoLocator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PhotoLocator.debug.xcconfig"; sourceTree = "<group>"; };
+		FCC79AC8065D33B79CE026A771C9446C /* plist_flags.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = plist_flags.swift; path = "sparrow/modules/request-permissions/readme/plist_flags.swift"; sourceTree = "<group>"; };
+		FDD1E611388915033F17DB0ACDC0BCE5 /* SPRateAppBannerWithIndicatorAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPRateAppBannerWithIndicatorAlertView.swift; path = "sparrow/modules/rate-app/types/dialog/banner-with-indicator/views/SPRateAppBannerWithIndicatorAlertView.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18783CF14ED3F149631FC314BE0B95E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7A65E9F5B5FC9025396987A8BBEAD3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B1E7B6E945A5918AD79E5F728E0FC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA5DC1BCEB3ADEDFB32C7C225E2BC07 /* Foundation.framework in Frameworks */,
+				F424FAEE419E484166790E05D9DE2ED2 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9325A662C33C7764552F19A3701F65A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27FCBAB30A618E36076464C3A000830D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2754636CFA24941DC6DE1EC004871382 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6DB36555AD23A2E1BF179FAE0ABD0E8 /* Info.plist */,
+				5557FFAA8A20250DA28D2F5539F27E7E /* Sparrow.modulemap */,
+				0E210541BA26CDFD5A9B0E7C28CA6377 /* Sparrow.xcconfig */,
+				DC6C7C6DDC3FA535C8D7CC72A1757C8A /* Sparrow-dummy.m */,
+				78C1E89BD5D69361813D7A2353158E4A /* Sparrow-prefix.pch */,
+				315DE0EDF930AEFA72593D6A824B374A /* Sparrow-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Sparrow";
+			sourceTree = "<group>";
+		};
+		3A0BFF9FC91B484E73BB724654365085 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E76C53F5DA877B0FB3E10586DFD64AB1 /* ALCameraViewController */,
+				58A152674B86A7EE8CB5E13291B4F123 /* Sparrow */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		58A152674B86A7EE8CB5E13291B4F123 /* Sparrow */ = {
+			isa = PBXGroup;
+			children = (
+				9060E1B303671631766EB7AC517C71EF /* Core */,
+				2754636CFA24941DC6DE1EC004871382 /* Support Files */,
+			);
+			name = Sparrow;
+			path = Sparrow;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				3A0BFF9FC91B484E73BB724654365085 /* Pods */,
+				E27EF1AE4ADAE02CB439A8F24D09CEAE /* Products */,
+				AE1612D33891CA9071933F467A09B366 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9060E1B303671631766EB7AC517C71EF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FCC79AC8065D33B79CE026A771C9446C /* plist_flags.swift */,
+				64926652EC10511022AFD5D029580D09 /* SPAligmentView.swift */,
+				18B24845111D8C741105E926A745D316 /* SPAnimation.swift */,
+				D1D4E74FE34F20AFCFE93ADF103C992F /* SPAnimationAlpha.swift */,
+				B53D31BCA76D8011347DFD6CAEE49E68 /* SPAnimationSpring.swift */,
+				CF9FA8A6F0716762DE7E346FB092A81B /* SPAnimationUpward.swift */,
+				E603B801C095B35718EF67F9B6FFDC4E /* SPAppStoreActionButton.swift */,
+				58C62E3D2CF7F4F56D96291D951F7D25 /* SPAppStoreData.swift */,
+				613285E2247AB57D0A62E15CB3C12837 /* SPArrayExtension.swift */,
+				A70EB0892B918FEB3E62DDFC6D3615C7 /* SPAudio.swift */,
+				1F2E85BA7B6E3F47D352467986AB83E4 /* SPAudioIconView.swift */,
+				DD73D5979D43E159010FFD6A472166C4 /* SPAudioPlayer.swift */,
+				281D21265E68E0080A9EB53D7632FB3E /* SPBadge.swift */,
+				C40A45B354D80894127044685115A678 /* SPBezierPathExtension.swift */,
+				23739E828C151EF9F29E02E99862BF90 /* SPBezierPathFigure.swift */,
+				954B266BF6901DFEC651E0B0297A5C5E /* SPBezierPathFigureDraw.swift */,
+				B3D0C56DBA556C6C9593ABF47C3F411E /* SPBezierPathFigureIcons.swift */,
+				BD4CC46CF012007DB39D4CE01848254E /* SPBezierPathFigureLogos.swift */,
+				375AE89BF809A71A79E22DD59D27E0D8 /* SPBezierPathFigurePatterns.swift */,
+				76F9C24821C26172411D9009EDE8F4F1 /* SPBlurView.swift */,
+				6192517D74280CA39CAC9D2B4957E249 /* SPCGRectExtension.swift */,
+				C4C38D4F2D95758356753ACC86EF39A0 /* SPCGSizeExtenshion.swift */,
+				DB7859462BA1668D911764A0295A1683 /* SPCodeDraw.swift */,
+				F725174CAF856B14A3D1F53CBCA3E558 /* SPCodeDrawAudioIconPack.swift */,
+				8308D3CA5B3C141CB77291B0F1CEEF49 /* SPCodeDrawSocialIconPack.swift */,
+				52A1CB75E113C445E06A7F2F12406A07 /* SPCodeDrawSystemIconPack.swift */,
+				CA20001DC0AA4FF9AE13CD24A23AD05C /* SPCollectionView.swift */,
+				D3747B7CBCF3A55432E33E75078B5E54 /* SPCollectionViewCell.swift */,
+				0C28EDFF303075D05610D8FF85C443A5 /* SPCollectionViewLayout.swift */,
+				47B09481B5426D326DADF513108CEBD9 /* SPConfirmActionViewController.swift */,
+				B71F5E95CABBA7B88EDBBDD73501F744 /* SPConstraintsAssistent.swift */,
+				E8F7E82E7FF4333243674FBD0923B050 /* SPDeepButton.swift */,
+				77EBA079FD0A826B66F7E1DD4B3C616B /* SPDelay.swift */,
+				27C351149377A1D66642B4D35E232C22 /* SPDevice.swift */,
+				B1D362AB1D8B947C34BF453625B966BE /* SPDeviceOrientation.swift */,
+				A6B01BBB2A81F1B91CECD882D2A4B4C0 /* SPDialogSwipeController.swift */,
+				EB29AEA6DDAD11FFA7C5EEE3971DE387 /* SPDownloader.swift */,
+				BAD6BA051473371EEE2AAE67458D1AEC /* SPDownloadingButton.swift */,
+				6B23534D1745E895D3A7F5AD04A8F191 /* SPDownloadingUIImageView.swift */,
+				8CE2810AF751AFAFEF8680EC0322E950 /* SPFormBottomTextTableViewCell.swift */,
+				A01870B34A3E61C2D00FF4791332F9E3 /* SPFormButtonTableViewCell.swift */,
+				322A64F26871C85FA75B8F6938E6E068 /* SPFormTextFiledTableViewCell.swift */,
+				D0040ED85F7368FAFA74C0285087E32E /* SPGradeWithBlurView.swift */,
+				545204A0CCFD0E10A4BE49373B79EF98 /* SPGradientGradeWithBlurView.swift */,
+				699F79DDF228EDBDDF60E57C59198C2E /* SPGradientView.swift */,
+				B1FCFD2E4ECADA8B2F21F2D52E4F55E2 /* SPGradientViewController.swift */,
+				2D6F29C2B9D3133746DBEDC69396E54B /* SPHiderViewController.swift */,
+				EB099081AC53E2AE1AAC06FC5CB43F9A /* SPHideWindow.swift */,
+				DB2B2582C123DC2E608D7360FDE9D9B3 /* SPIndicationBannerController.swift */,
+				D49004E3A0DDE8F913B2A4BEDF39C289 /* SPInternetConnection.swift */,
+				64940DF6682EFEDACF271BFD8CBD1B1B /* SPLaunchAnimation.swift */,
+				0DD38BD048CC1AD983BA6E2819D3BB0A /* SPLaunchAnimationSlideExtenshion.swift */,
+				3421F9FABE2F8F1F0E5C17A172975EF2 /* SPLaunchAnimationTwitterExtenshion.swift */,
+				350BCD037234AFA2569E741AD6DD289F /* SPLayout.swift */,
+				3D697E2C71D5B09A99E6515757896607 /* SPNativeLoginCodeViewController.swift */,
+				83C19DB71A3C0C3A8B7DDB965541C08A /* SPNativeLoginNavigationController.swift */,
+				1A37DB54B63EC41251D40C6B32C29F36 /* SPNativeLoginViewController.swift */,
+				C8A6A7C162ADDC5B1827E14DF6EBA1EC /* SPNativeOS11Button.swift */,
+				8EE1EDD9E2A7AD276A6EDFDDCD97C08F /* SPNativeStyleKit.swift */,
+				98452394514B260938EA07300319C44A /* SPOpener.swift */,
+				316C5330A16FAF8EA74D409287B58696 /* SPPatternView.swift */,
+				C76467E9016B54BE74AA865AB020B6B2 /* SPPermissions.swift */,
+				CEED03AB404115E76CE6BEA2E8540DF8 /* SPPermissionsManager.swift */,
+				B66B018B64C6E50F1EFB6543D652AD4F /* SPPlayCircleButton.swift */,
+				3D7FB56FBE707C007E70049C3652850D /* SPRandom.swift */,
+				5EC1153CD07F66003093DE37927B24A5 /* SPRateApp.swift */,
+				FDD1E611388915033F17DB0ACDC0BCE5 /* SPRateAppBannerWithIndicatorAlertView.swift */,
+				0444143016DBC15F85A1491F3A3BD8FF /* SPRateAppBannerWithIndicatorController.swift */,
+				C002BDB8114B86A0D56F5D4AEEECAC44 /* SPRateAppBannerWithIndicatorDataSource.swift */,
+				629634037E6A3558A50ED3F52B92DBB4 /* SPRateAppBannerWithIndicatorDataSourceInterface.swift */,
+				9B451965159B843EE5789BF8DC365748 /* SPRateAppBannerWithIndicatorTwiceButton.swift */,
+				B0DA0543D30BC616C2CF6F6CF7FCDBEC /* SPRateAppEventsDelegate.swift */,
+				24BEE082DBDA3771B5A96FEEA27103F4 /* SPRequestPermission.swift */,
+				233A86E6DC7C9C57DF55E92D4B23D174 /* SPRequestPermissionDataColors.swift */,
+				60ED6411CA0B1656B3B3BBA28D011A8C /* SPRequestPermissionDataFonts.swift */,
+				4C19320CEB3E1DB89424EE2169982366 /* SPRequestPermissionDataTexts.swift */,
+				16E257474F59A30D31FF83A4B4CC2470 /* SPRequestPermissionDataViews.swift */,
+				FAC36CF7F187D1D5E474D55978DB5B77 /* SPRequestPermissionDialogInteractiveDataSource.swift */,
+				4BD4992300207EACC51D861091F960CA /* SPRequestPermissionDialogInteractiveDataSourceInterface.swift */,
+				406AE67357DA4FA044C33672C9E25425 /* SPRequestPermissionDialogInteractivePresenter.swift */,
+				98AD4E78850016D33A528777D4175AFF /* SPRequestPermissionDialogInteractivePresenterInterface.swift */,
+				2A3067BF76E0963BFB80381811B44A07 /* SPRequestPermissionDialogInteractiveView.swift */,
+				0222269BC4908DBD5B59A2406A6DBD4C /* SPRequestPermissionDialogInteractiveViewController.swift */,
+				AE61F4AB1C1591DA4A75C96F3D5986CC /* SPRequestPermissionDialogInteractiveViewControllerInterface.swift */,
+				819A9839C4BE7869F909097AA03A7892 /* SPRequestPermissionEventsDelegate.swift */,
+				0412D1204F3163D833862783BBCD5015 /* SPRequestPermissionLocationHandler.swift */,
+				219325D9604AE683446F3C1EB8F03BFE /* SPRequestPermissionNativePresenter.swift */,
+				C066B71AFEC1D106D69A26754224B157 /* SPRequestPermissionTwiceControl.swift */,
+				4DAD1FE4ACAA5099AC0CA1AAF618F18E /* SPRequestPermissionTwiceControlBase.swift */,
+				CE1BA9C721A39DF4CAEB69FF8B94869D /* SPRhombusPatternView.swift */,
+				AC94E5121B5D576DC85BD5B02083288D /* SPRoundButton.swift */,
+				90400CBA9208C387625DDDAD5E04352E /* SPShadow.swift */,
+				DF43601D226E663A096DEEE500521A3C /* SPShadowDeep.swift */,
+				290D7270EA7AEFC9682A0A9CE0EE6FAA /* SPShadowWithMaskView.swift */,
+				ACF95BEFFE4DF1BF5E13319D205859A7 /* SPShare.swift */,
+				A475406FDE93A305C58C71BD71D170D1 /* SPShareView.swift */,
+				C6888D029FCAA7E534BCFD934A20B24C /* SPSocialIconButton.swift */,
+				DC3B751E9788D3FBAFDE757C2E4A9ED6 /* SPSocialIconView.swift */,
+				7F7964028B8C7CCB8A93D366DBBF8AAB /* SPSpotlight.swift */,
+				BCE21A09CAAEFA4DC2DAFB6E5455E812 /* SPStatusBarManagerViewController.swift */,
+				1D6417C903EF81914568D7EE514A9BA0 /* SPStrideableExtension.swift */,
+				54D5A665A5BB25E3E722F2CA8B740BE2 /* SPStyleKit.swift */,
+				DE2FF77273B9E2B45BE02D4BCF06EA30 /* SPSystemIconButton.swift */,
+				C6C6E117606F0AE18C84A140C8EDA3F8 /* SPSystemIconView.swift */,
+				BD948EA3B6AB550E6BFE85D72866DBB2 /* SPTableViewCell.swift */,
+				21BDD0B83F0339EE677531772E58F8E1 /* SPTelegram.swift */,
+				44F3AE0D2D1AF8763F041E28961E2698 /* SPTextAndImageDinamicHeightTableViewCell.swift */,
+				BEB91806372C11967A1182C7A5517811 /* SPTextFieldExtenshion.swift */,
+				109C440101B5D918D18B6D77E4EC9761 /* SPTitleWithSubtitleView.swift */,
+				8642AFB7F00E4CB3B050CFA7B23869D3 /* SPTypes.swift */,
+				C9B399BAA993DE74DE1BED66BDF704A0 /* SPUIAlertControllerExtenshion.swift */,
+				461707A3933D1CE875F5C1EB7B861DF0 /* SPUIButtonExtenshion.swift */,
+				80701A0C79FC59A58C88A6FF51810BC7 /* SPUIColorExtension.swift */,
+				D511F282C9625AAC0E3DC7A7B0E54548 /* SPUIDeviceExtenshion.swift */,
+				DB6DE29817E7D09F1950776CFC7D36AA /* SPUIFontExtenshion.swift */,
+				E5EDC91BCDE7D15416E85F1E1EECA8C9 /* SPUIImageExtension.swift */,
+				73346CD9D1A2D28091FD2263F86AD50C /* SPUIImageViewExtenshion.swift */,
+				E620BC2EFF67D93E61A474C032D3DE30 /* SPUILabelExtenshion.swift */,
+				A749F99364F2024C5FA6FEA8449398A9 /* SPUIScreenExtension.swift */,
+				269327E293FB4C68D481649FF451830B /* SPUITableViewCell.swift */,
+				A669D346104580A7BD52312C47F6F439 /* SPUITableViewControllerExtenshion.swift */,
+				ABAC002E5B05288F643A6CFD608D2532 /* SPUITextFieldExtenshion.swift */,
+				33F91D7A0E60309CEB2361756E5E6B4B /* SPUIViewControllerExtenshion.swift */,
+				4658CC46828B3ED6A0DA26C78CEA1B2B /* SPUIViewExtenshion.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		AE1612D33891CA9071933F467A09B366 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8500AAC6E8E7F1567E9E69C0D1C5982 /* Pods-PhotoLocator */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C8500AAC6E8E7F1567E9E69C0D1C5982 /* Pods-PhotoLocator */ = {
+			isa = PBXGroup;
+			children = (
+				D73EE2911DBF689F0F5CB56153C5CC65 /* Info.plist */,
+				198EBA4995FAE01AF2FADEA52E079A39 /* Pods-PhotoLocator.modulemap */,
+				D4F6FA93B9D6AE9959CE305650C3FD79 /* Pods-PhotoLocator-acknowledgements.markdown */,
+				4E008E526798DB8511DCC4BB44C31DBF /* Pods-PhotoLocator-acknowledgements.plist */,
+				537892C40FA12F681B87FD961E4D5376 /* Pods-PhotoLocator-dummy.m */,
+				CC2EDDD3E68B6EADCF5AB7A251074AA9 /* Pods-PhotoLocator-frameworks.sh */,
+				C81F9085F2978DFD6F415C66CA66A359 /* Pods-PhotoLocator-resources.sh */,
+				505D65B62DF1C930EC5338E74AE91163 /* Pods-PhotoLocator-umbrella.h */,
+				FAD84244563CF2EC3FAA25F32D2E566C /* Pods-PhotoLocator.debug.xcconfig */,
+				7A667F4503D2DFC3C2F6E4E20ADD0CD0 /* Pods-PhotoLocator.release.xcconfig */,
+			);
+			name = "Pods-PhotoLocator";
+			path = "Target Support Files/Pods-PhotoLocator";
+			sourceTree = "<group>";
+		};
+		D8683DADEF137F58A0F6C15A3683F960 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				20E94A7410BB38DD0C2A30E5EFFCB0AD /* ALCameraViewController.modulemap */,
+				E9DFBD2BAD34EFB4474387DD7CE60CBB /* ALCameraViewController.xcconfig */,
+				0DABDE8493210570898ADBAFC4F8EE30 /* ALCameraViewController-dummy.m */,
+				690A6B1D44C265EB89B0D5CAD1874349 /* ALCameraViewController-prefix.pch */,
+				5329DCD8DA72BF2DBFED9A307659A2C6 /* ALCameraViewController-umbrella.h */,
+				8EDCE9DA6A9DDF830D44A0544B3CD643 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ALCameraViewController";
+			sourceTree = "<group>";
+		};
+		E27EF1AE4ADAE02CB439A8F24D09CEAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D956FA6ED77E6A8D60272289201C0062 /* ALCameraViewController.framework */,
+				514B19D1FA8141B48C9849284C852743 /* Pods_PhotoLocator.framework */,
+				E6BF0B2A56519925A15AE15D0B130ACA /* Sparrow.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E76C53F5DA877B0FB3E10586DFD64AB1 /* ALCameraViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E0328879165B6A123BCC1183DEB15F3E /* CameraGlobals.swift */,
+				4A31CA3F9C88DE67A08B75BADCAF656F /* CameraShot.swift */,
+				AFCAF75AC5009501CCEFD8EC4820C373 /* CameraView.swift */,
+				DF4D7EDC92168870ABC908DB1EC42A42 /* CameraViewController.swift */,
+				A61EDEE847C6AFBEB3905752CFEA59BD /* CameraViewControllerConstraint.swift */,
+				6A3F7853B63D5C605D761AB52901A1DE /* ConfirmViewController.swift */,
+				ACE2C163FCEA1B0442A1CFD9670E3E81 /* CropOverlay.swift */,
+				4D54CB7A6DB81E5E1524B14417DE34D3 /* CroppingParameters.swift */,
+				2B5E1A455B74988A9BC6C5A242811797 /* ImageCell.swift */,
+				54E3D847483C4A9E46C68CB199AA79DB /* ImageFetcher.swift */,
+				4EA2408BA0B2C039607FED2CD0602308 /* PermissionsView.swift */,
+				9110C8C213AC8733A5CD6B7BAD907AC0 /* PhotoLibraryAuthorizer.swift */,
+				38D9CC98ABCD63C00FD6331D77064271 /* PhotoLibraryViewController.swift */,
+				BE14A5CBFF6FB03A217D0CA07EA9E93F /* SingleImageFetcher.swift */,
+				7E9ED1A548E80DC5218CEAF4ADF7DDF2 /* SingleImageSaver.swift */,
+				56916991B3D90CF7758C7998BD032CE4 /* UIButtonExtensions.swift */,
+				FA787B57200D187B46EED06AA3AE5197 /* UIViewExtensions.swift */,
+				1B93F0E7E422BB7AA8A3A9C83A77DAA5 /* Utilities.swift */,
+				0001AA1A5A50BAB1921A0855E0AC9D10 /* VolumeControl.swift */,
+				FAD4046F97F988B84BA0FAF19A5D1410 /* Resources */,
+				D8683DADEF137F58A0F6C15A3683F960 /* Support Files */,
+			);
+			name = ALCameraViewController;
+			path = ALCameraViewController;
+			sourceTree = "<group>";
+		};
+		FAD4046F97F988B84BA0FAF19A5D1410 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				701844AC076458C89050E14C27D63003 /* CameraView.strings */,
+				CB7EF5D9B5D825A08E2B42214EE1E6B6 /* CameraViewAssets.xcassets */,
+				9885E18B7138E9A274F32E815DADD642 /* ConfirmViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2EE3A49DACCD8BB22CB1D9E2F86D3B86 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17980A7D4FFDA661EB7A2A7877957D1C /* ALCameraViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F199E8FA2EE96C55E66BD1470C71957C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB36F7C300062156BE8AD4E9DDB2E918 /* Pods-PhotoLocator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA52CD7925A2C9725C57B9E03742F31E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D73C844D9FCD7306859184777DBEE4 /* Sparrow-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1153901EB06628ED07DD00C713033A0C /* Sparrow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 595F5F64A1CCA69EED3F96687A940B0C /* Build configuration list for PBXNativeTarget "Sparrow" */;
+			buildPhases = (
+				8F7E3847C28210AFE7285E63431A5858 /* Sources */,
+				65B1E7B6E945A5918AD79E5F728E0FC4 /* Frameworks */,
+				FA52CD7925A2C9725C57B9E03742F31E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sparrow;
+			productName = Sparrow;
+			productReference = E6BF0B2A56519925A15AE15D0B130ACA /* Sparrow.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		22925D8487083B50E07517C20C6E2A40 /* Pods-PhotoLocator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25BAF5E2EAC746EFA38163CBEFF3281F /* Build configuration list for PBXNativeTarget "Pods-PhotoLocator" */;
+			buildPhases = (
+				1C444195450322E61BD187C5404777B6 /* Sources */,
+				9325A662C33C7764552F19A3701F65A1 /* Frameworks */,
+				F199E8FA2EE96C55E66BD1470C71957C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80D68D29EDFFEECCE33082CB8BF4D74D /* PBXTargetDependency */,
+				A520259A20DC315C8C00638FCF641FEC /* PBXTargetDependency */,
+			);
+			name = "Pods-PhotoLocator";
+			productName = "Pods-PhotoLocator";
+			productReference = 514B19D1FA8141B48C9849284C852743 /* Pods_PhotoLocator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5570ADD82640075EE63C4B974684196D /* ALCameraViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C45949BC229DC75A6C527ED35205E062 /* Build configuration list for PBXNativeTarget "ALCameraViewController" */;
+			buildPhases = (
+				6D152D1336D8323C8F4D231278A12573 /* Sources */,
+				18783CF14ED3F149631FC314BE0B95E0 /* Frameworks */,
+				B7BF6612D8479386CF4D84DE6BBC435A /* Resources */,
+				2EE3A49DACCD8BB22CB1D9E2F86D3B86 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ALCameraViewController;
+			productName = ALCameraViewController;
+			productReference = D956FA6ED77E6A8D60272289201C0062 /* ALCameraViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E27EF1AE4ADAE02CB439A8F24D09CEAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5570ADD82640075EE63C4B974684196D /* ALCameraViewController */,
+				22925D8487083B50E07517C20C6E2A40 /* Pods-PhotoLocator */,
+				1153901EB06628ED07DD00C713033A0C /* Sparrow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7BF6612D8479386CF4D84DE6BBC435A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F718CC2A382A6E091F07A4A3449441 /* CameraView.strings in Resources */,
+				CF011AF8E0AEC4435805CC095D647FA6 /* CameraViewAssets.xcassets in Resources */,
+				9159303811E1CF0D6FCE1B7C0BF0A26C /* ConfirmViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C444195450322E61BD187C5404777B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7A2DEE862454077D531787198CBA5E /* Pods-PhotoLocator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D152D1336D8323C8F4D231278A12573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F0D75E7DA383640BD4574C8D08CEF1 /* ALCameraViewController-dummy.m in Sources */,
+				EE77DCD20E836C23F782D39D02505887 /* CameraGlobals.swift in Sources */,
+				BD39EF4C7C9A9BDA97CABD4B34A7258E /* CameraShot.swift in Sources */,
+				EC056198370845290ED30DE12701B0DC /* CameraView.swift in Sources */,
+				48A62FDCD9FCD5C1940DE1C041D38D31 /* CameraViewController.swift in Sources */,
+				3579A5632C68ECB771284AE039E39705 /* CameraViewControllerConstraint.swift in Sources */,
+				8FD3EBBBF1622F58ABCF8671CBCD3432 /* ConfirmViewController.swift in Sources */,
+				C5AA50DCF34D3F018072C984EF18D366 /* CropOverlay.swift in Sources */,
+				B097E8B525DDBE65C30DAF5458957FE8 /* CroppingParameters.swift in Sources */,
+				78229C724844A2F32DB2D05285CE515C /* ImageCell.swift in Sources */,
+				67032953D1DB30B26C861A3D2E02FE8B /* ImageFetcher.swift in Sources */,
+				FAB23BC0A0156DB93D49CA64968230EC /* PermissionsView.swift in Sources */,
+				F6B7C96A9E89CFB46CE8BE6DE9C93016 /* PhotoLibraryAuthorizer.swift in Sources */,
+				4AD5DA24A58B72BEF85EDD8C1117813B /* PhotoLibraryViewController.swift in Sources */,
+				DA68E34E7E7D39961D4462EDF798C9A7 /* SingleImageFetcher.swift in Sources */,
+				47475127F3D9B0AA095E90193F7A0012 /* SingleImageSaver.swift in Sources */,
+				43DEE2F1EF7D3B1B7036EF4DF900513B /* UIButtonExtensions.swift in Sources */,
+				5C1184CF84A07DF3F565A9E450FBCA62 /* UIViewExtensions.swift in Sources */,
+				55691B4946AE3E04672E63C66BC3604D /* Utilities.swift in Sources */,
+				CBF8C92C5692B682ECC8EF60FD304A19 /* VolumeControl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F7E3847C28210AFE7285E63431A5858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9829A83ED28959508478813D86C5A8B /* plist_flags.swift in Sources */,
+				F15B58CE2790B4FDF2B96DD24D711862 /* SPAligmentView.swift in Sources */,
+				429F60257FD271BE779242EAEEFEB06F /* SPAnimation.swift in Sources */,
+				895CFAD307F2CBF482D2D935035DFD10 /* SPAnimationAlpha.swift in Sources */,
+				B661F30C3B3485D22AFAD90D7E1E1082 /* SPAnimationSpring.swift in Sources */,
+				E1B90A12480C8D258566F29ADCCD47F5 /* SPAnimationUpward.swift in Sources */,
+				254C309BEF92E2CB698AAB7788584903 /* SPAppStoreActionButton.swift in Sources */,
+				F7F567AEA993B9DE8F92436ABBC7EFB6 /* SPAppStoreData.swift in Sources */,
+				F34160318E82DE16ABADE58822BBFE23 /* SPArrayExtension.swift in Sources */,
+				7F3E45EB4C45C33CE69C482963A55ACB /* Sparrow-dummy.m in Sources */,
+				5C69E53C4C0BA204FD40321407D943F0 /* SPAudio.swift in Sources */,
+				9464927D89EFFB8E81E998551D9503F7 /* SPAudioIconView.swift in Sources */,
+				9899914CBE9D1B1FD6C17012EDBE4322 /* SPAudioPlayer.swift in Sources */,
+				7333B28C9E775BECE911BEC4B9410810 /* SPBadge.swift in Sources */,
+				98976F4B66C8BD9E63499EE4CC04D80F /* SPBezierPathExtension.swift in Sources */,
+				0F8D397FEF50A91F071DE1F549F7414E /* SPBezierPathFigure.swift in Sources */,
+				0A366E81AED7B706634F3FF8A503AA57 /* SPBezierPathFigureDraw.swift in Sources */,
+				02B1D1F62C0C64E6DF3C6AB2170E8540 /* SPBezierPathFigureIcons.swift in Sources */,
+				B9B068F22F11F2B595D2869F99692D21 /* SPBezierPathFigureLogos.swift in Sources */,
+				689AB80C21330BCF76B3C53A007A6B42 /* SPBezierPathFigurePatterns.swift in Sources */,
+				60EBF93B96F15935427F5EC94237ADA9 /* SPBlurView.swift in Sources */,
+				5B9CF23CD8C0146625266A7BFF00DB00 /* SPCGRectExtension.swift in Sources */,
+				0CF4B43223D702DCDF0DB2707F743BFB /* SPCGSizeExtenshion.swift in Sources */,
+				7926028022307AECF932B96865C1D6B6 /* SPCodeDraw.swift in Sources */,
+				746D086FDC459838488FA82DA1FB3F31 /* SPCodeDrawAudioIconPack.swift in Sources */,
+				5412096CD895C32FF0E8F767925D2C73 /* SPCodeDrawSocialIconPack.swift in Sources */,
+				8AA7F52B3E31F698F06D54B33D139C8C /* SPCodeDrawSystemIconPack.swift in Sources */,
+				16DC68ED86E7F183A07C5529E456217E /* SPCollectionView.swift in Sources */,
+				B2D39ECDB7D3867DE47D33DEEB02C4DF /* SPCollectionViewCell.swift in Sources */,
+				4A298B28EFFE7840E2B67158C52F6B2A /* SPCollectionViewLayout.swift in Sources */,
+				6C383E9F82F1435F1408AB0070D331F4 /* SPConfirmActionViewController.swift in Sources */,
+				31E28917F8AB21EA3E83A09DBDA0E554 /* SPConstraintsAssistent.swift in Sources */,
+				E29282E4A6960763F6FA662B0B65305C /* SPDeepButton.swift in Sources */,
+				589CC256F80FA148E5ECF444E2E9C48B /* SPDelay.swift in Sources */,
+				582B3308127290F41EADA0DE9345BD2D /* SPDevice.swift in Sources */,
+				8B022533E374C631E1C78FBBBBD4E960 /* SPDeviceOrientation.swift in Sources */,
+				0C259D5F999E2FB03941DB9A033E2841 /* SPDialogSwipeController.swift in Sources */,
+				218EA4BF7227BD3C0532E1855BF6B632 /* SPDownloader.swift in Sources */,
+				457467BCC6D2BA275F0E3E02AE0ECFA6 /* SPDownloadingButton.swift in Sources */,
+				52007FFD2736B20936D18E34404CBD41 /* SPDownloadingUIImageView.swift in Sources */,
+				2994231F185B857D35C678035BAECD03 /* SPFormBottomTextTableViewCell.swift in Sources */,
+				39C1B158A6F5300DADAC5A90280497A8 /* SPFormButtonTableViewCell.swift in Sources */,
+				FB4157476F06EF4A270BC56A0B51809A /* SPFormTextFiledTableViewCell.swift in Sources */,
+				4349C7FDD5D95D9FA443AEB4DBF25858 /* SPGradeWithBlurView.swift in Sources */,
+				48ABF9C87135C13ADF0E4A371F516219 /* SPGradientGradeWithBlurView.swift in Sources */,
+				8FC37EA5B996FB538C64DBA4D2C6151B /* SPGradientView.swift in Sources */,
+				C9434CB8478E2C48B41F44C5D1DB28C7 /* SPGradientViewController.swift in Sources */,
+				5C67553979CD9C6DDD03D72BEBA71A96 /* SPHiderViewController.swift in Sources */,
+				F49D0B09F851CB7F7AD95EAD7C809284 /* SPHideWindow.swift in Sources */,
+				580540C0BA6686C1C71A8AD66105A7E5 /* SPIndicationBannerController.swift in Sources */,
+				CF8D671A7CB5CB044E6A1981CB395681 /* SPInternetConnection.swift in Sources */,
+				60A7A9802952E5259A521333C1CE7F7D /* SPLaunchAnimation.swift in Sources */,
+				336408A56B3E59E703C763919E20C905 /* SPLaunchAnimationSlideExtenshion.swift in Sources */,
+				5A5E1382DF934B0F393E564BC132B6B4 /* SPLaunchAnimationTwitterExtenshion.swift in Sources */,
+				DC80453E1B3B4394A9F84DAD8888FC3A /* SPLayout.swift in Sources */,
+				E784F8D8364F1D0CF52A1D2C97A8E348 /* SPNativeLoginCodeViewController.swift in Sources */,
+				E5C0D1C4F83AD0E33FDC889BC3E179A8 /* SPNativeLoginNavigationController.swift in Sources */,
+				B2C028EF646AD25E74D587F29C90787D /* SPNativeLoginViewController.swift in Sources */,
+				427247014D3618651D802FD669251841 /* SPNativeOS11Button.swift in Sources */,
+				75B997A2946B8A16B43E396FF4EEF4C3 /* SPNativeStyleKit.swift in Sources */,
+				F71DE9F0737DF67A1BBB51869C858FDE /* SPOpener.swift in Sources */,
+				9A1AA77789CEC35B0C7D227916DBB182 /* SPPatternView.swift in Sources */,
+				70B165063B01230048AA8D188E65C603 /* SPPermissions.swift in Sources */,
+				43809033138432137E65014841E55EF8 /* SPPermissionsManager.swift in Sources */,
+				6BB9C5B3B9D00DD1780402C0979A161B /* SPPlayCircleButton.swift in Sources */,
+				08D7E25BCF9182A6DD14F233A4EF2B84 /* SPRandom.swift in Sources */,
+				88C3650AC1F3AF55B7CB4DD7859559C1 /* SPRateApp.swift in Sources */,
+				336024862D0E62119E32B60AAD016AB1 /* SPRateAppBannerWithIndicatorAlertView.swift in Sources */,
+				84E36F20180D84DAC1CF8431E531F700 /* SPRateAppBannerWithIndicatorController.swift in Sources */,
+				F54202F23C54983E40F5BB1D2309F889 /* SPRateAppBannerWithIndicatorDataSource.swift in Sources */,
+				BEC25B377F64B46694E66410752FF95A /* SPRateAppBannerWithIndicatorDataSourceInterface.swift in Sources */,
+				2C7833F87A044AE93566C161809D0B41 /* SPRateAppBannerWithIndicatorTwiceButton.swift in Sources */,
+				3C5F9916AEADB44A2258E1E544DBAC64 /* SPRateAppEventsDelegate.swift in Sources */,
+				C6675BD4935689ADE88F67ADD3AE5C90 /* SPRequestPermission.swift in Sources */,
+				17F8C50A50644F34FA8B9BD06F169C14 /* SPRequestPermissionDataColors.swift in Sources */,
+				6FF9C56FFB2AACABE501C1F6A40EDC5A /* SPRequestPermissionDataFonts.swift in Sources */,
+				CD4C0C66B46C041896ED2E229C97DD17 /* SPRequestPermissionDataTexts.swift in Sources */,
+				B5A2E98F12B1630C0005F37460E7BD1A /* SPRequestPermissionDataViews.swift in Sources */,
+				6F2790870B2680943BFD3658A5D97CDE /* SPRequestPermissionDialogInteractiveDataSource.swift in Sources */,
+				8710E0E7FC99F7E626BCC6B7E2E87A5E /* SPRequestPermissionDialogInteractiveDataSourceInterface.swift in Sources */,
+				EC837A5227588840425AF38A5064E736 /* SPRequestPermissionDialogInteractivePresenter.swift in Sources */,
+				384348B8C5244E689BB9F4E8E9BA8544 /* SPRequestPermissionDialogInteractivePresenterInterface.swift in Sources */,
+				0A1094D2F6FDE426DA3D3CA34AFC4B94 /* SPRequestPermissionDialogInteractiveView.swift in Sources */,
+				83942FC58C714B5FC3931BE332EB49B0 /* SPRequestPermissionDialogInteractiveViewController.swift in Sources */,
+				E623C5B92DE537EA57EB916A78E261D8 /* SPRequestPermissionDialogInteractiveViewControllerInterface.swift in Sources */,
+				E2696EAB4B067CEA0F61C7BF0CCCDFAD /* SPRequestPermissionEventsDelegate.swift in Sources */,
+				B4B16983A0931F9BE4366330C7959CB4 /* SPRequestPermissionLocationHandler.swift in Sources */,
+				1B81998893BD0E2FF43AB3925A5515AA /* SPRequestPermissionNativePresenter.swift in Sources */,
+				9ED6107E0842271366CEF2ACFCBF065B /* SPRequestPermissionTwiceControl.swift in Sources */,
+				1B97985251BCE72807D9BA891177A4A5 /* SPRequestPermissionTwiceControlBase.swift in Sources */,
+				1606807D0268ABBB66004CE3D0470156 /* SPRhombusPatternView.swift in Sources */,
+				3D738FB20F288AC14588905878945503 /* SPRoundButton.swift in Sources */,
+				99E69112690ECFE3A85FE60A4D32CECA /* SPShadow.swift in Sources */,
+				794E29F0BDAA332BB38CC16B94A35CFE /* SPShadowDeep.swift in Sources */,
+				C07BE1969ACEBBF1DF4C180DF03715FE /* SPShadowWithMaskView.swift in Sources */,
+				F04CC2DD06DAD63D8988CE22E0CC5B8E /* SPShare.swift in Sources */,
+				56D285DBE4A1CAF344052C02F5B3BC88 /* SPShareView.swift in Sources */,
+				AB2957583689DB471FCE26440C100A2E /* SPSocialIconButton.swift in Sources */,
+				DA72D78A9118A62AFAF45A0AA7082CC4 /* SPSocialIconView.swift in Sources */,
+				537305EB4EB29F3FE9F1D8546D9B7B26 /* SPSpotlight.swift in Sources */,
+				73B9B53228F90F3CFF761BA2D92C2D96 /* SPStatusBarManagerViewController.swift in Sources */,
+				BB359F345A7993AB222A69F6819ED139 /* SPStrideableExtension.swift in Sources */,
+				788A8A5F04EFC4871EC03F0EDEAFD993 /* SPStyleKit.swift in Sources */,
+				262B292E9B448044A211FF8CE25DEDA6 /* SPSystemIconButton.swift in Sources */,
+				ECE3883DAA288BBC9C640674E37F99C5 /* SPSystemIconView.swift in Sources */,
+				8666AEBAC90E8D901851D87C013F5C47 /* SPTableViewCell.swift in Sources */,
+				D7AA3BF5A1779EF5BC6F81AC4E4B78C5 /* SPTelegram.swift in Sources */,
+				B9E21402A04F02B1BC78E782E5DEF45C /* SPTextAndImageDinamicHeightTableViewCell.swift in Sources */,
+				F74AACC77A8EDB4C792FA6210EE2331A /* SPTextFieldExtenshion.swift in Sources */,
+				1B777473D17B11A275A88764D2AD92AD /* SPTitleWithSubtitleView.swift in Sources */,
+				E1221A244219D5DA604B635F7740540A /* SPTypes.swift in Sources */,
+				CE6F2B33F00BAA6722AB08D6815A7BD5 /* SPUIAlertControllerExtenshion.swift in Sources */,
+				35642CFE3A385123E0311299FE20BA6D /* SPUIButtonExtenshion.swift in Sources */,
+				D7D9F452CB679E9A44DF91DA0A2B31F1 /* SPUIColorExtension.swift in Sources */,
+				6733126CCE747D6EBA99F4F31D46FCFF /* SPUIDeviceExtenshion.swift in Sources */,
+				40D4812F8380FBF3C5F96D379B416D08 /* SPUIFontExtenshion.swift in Sources */,
+				87B0218D1CC2354B9C87D8531A6E0A0A /* SPUIImageExtension.swift in Sources */,
+				9355C99D95E7574A73581139228FF2DC /* SPUIImageViewExtenshion.swift in Sources */,
+				C086409963A078899B6343AEEC14A7A8 /* SPUILabelExtenshion.swift in Sources */,
+				A43BEB552679DFA7584AD9C13A06F6EB /* SPUIScreenExtension.swift in Sources */,
+				D760078957C68319371DB5E25E7AB03D /* SPUITableViewCell.swift in Sources */,
+				9AF5773C5B2F49CA374BE6492370E0CC /* SPUITableViewControllerExtenshion.swift in Sources */,
+				3EB383A02A7C2AD66112BCE55B500051 /* SPUITextFieldExtenshion.swift in Sources */,
+				4D9E466DBDAB764FEA021801286664F3 /* SPUIViewControllerExtenshion.swift in Sources */,
+				86151CA3D703583103CCEB8200FE4AEC /* SPUIViewExtenshion.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80D68D29EDFFEECCE33082CB8BF4D74D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ALCameraViewController;
+			target = 5570ADD82640075EE63C4B974684196D /* ALCameraViewController */;
+			targetProxy = 5958435A717A231BADEC83DA660768FA /* PBXContainerItemProxy */;
+		};
+		A520259A20DC315C8C00638FCF641FEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Sparrow;
+			target = 1153901EB06628ED07DD00C713033A0C /* Sparrow */;
+			targetProxy = 880F47D431E046E67B960A5839D9B957 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D23278938ADF334174C5BF2A4B6B1B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		766E23145AD9844E3110CFF80B51B280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A667F4503D2DFC3C2F6E4E20ADD0CD0 /* Pods-PhotoLocator.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PhotoLocator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PhotoLocator/Pods-PhotoLocator.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PhotoLocator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9013029E8D6C1FBE7840FDF0A8525A45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E210541BA26CDFD5A9B0E7C28CA6377 /* Sparrow.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Sparrow/Sparrow-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Sparrow/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Sparrow/Sparrow.modulemap";
+				PRODUCT_NAME = Sparrow;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		995C3A53DEAA96B47E756185345E180D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9D7D39580E50995C53CC7EBFE80563CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAD84244563CF2EC3FAA25F32D2E566C /* Pods-PhotoLocator.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PhotoLocator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PhotoLocator/Pods-PhotoLocator.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PhotoLocator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E3F36D457BE9614620635C55B55C6E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9DFBD2BAD34EFB4474387DD7CE60CBB /* ALCameraViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ALCameraViewController/ALCameraViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ALCameraViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ALCameraViewController/ALCameraViewController.modulemap";
+				PRODUCT_NAME = ALCameraViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DCCB93D358B0D69E8B3FDF82F25FF64D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E210541BA26CDFD5A9B0E7C28CA6377 /* Sparrow.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Sparrow/Sparrow-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Sparrow/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Sparrow/Sparrow.modulemap";
+				PRODUCT_NAME = Sparrow;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB78E01FC2C805A3BFAA7344CC4FE3D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9DFBD2BAD34EFB4474387DD7CE60CBB /* ALCameraViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ALCameraViewController/ALCameraViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ALCameraViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ALCameraViewController/ALCameraViewController.modulemap";
+				PRODUCT_NAME = ALCameraViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25BAF5E2EAC746EFA38163CBEFF3281F /* Build configuration list for PBXNativeTarget "Pods-PhotoLocator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D7D39580E50995C53CC7EBFE80563CB /* Debug */,
+				766E23145AD9844E3110CFF80B51B280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				995C3A53DEAA96B47E756185345E180D /* Debug */,
+				1D23278938ADF334174C5BF2A4B6B1B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		595F5F64A1CCA69EED3F96687A940B0C /* Build configuration list for PBXNativeTarget "Sparrow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCCB93D358B0D69E8B3FDF82F25FF64D /* Debug */,
+				9013029E8D6C1FBE7840FDF0A8525A45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C45949BC229DC75A6C527ED35205E062 /* Build configuration list for PBXNativeTarget "ALCameraViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E3F36D457BE9614620635C55B55C6E4 /* Debug */,
+				FB78E01FC2C805A3BFAA7344CC4FE3D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

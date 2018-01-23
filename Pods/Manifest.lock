@@ -1,0 +1,26 @@
+PODS:
+  - ALCameraViewController (3.0.2)
+  - Sparrow/Core (1.1.0)
+  - Sparrow/Modules/RequestPermission (1.1.0):
+    - Sparrow/Core
+
+DEPENDENCIES:
+  - ALCameraViewController
+  - Sparrow/Modules/RequestPermission (from `https://github.com/IvanVorobei/Sparrow.git`)
+
+EXTERNAL SOURCES:
+  Sparrow:
+    :git: https://github.com/IvanVorobei/Sparrow.git
+
+CHECKOUT OPTIONS:
+  Sparrow:
+    :commit: d3becbdd5dbc982a53a461188ea35b818342a9ed
+    :git: https://github.com/IvanVorobei/Sparrow.git
+
+SPEC CHECKSUMS:
+  ALCameraViewController: 1edce3497633f0df138523645ed1228961ee2eab
+  Sparrow: 86b8f0d7598dc52ff2b06bb1df05feb297d1821f
+
+PODFILE CHECKSUM: 8831399513751ea990d58654bb78de29852e9f8c
+
+COCOAPODS: 1.3.1
