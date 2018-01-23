@@ -10,18 +10,50 @@ import UIKit
 import Sparrow
 import ALCameraViewController
 import CoreLocation
+import Alamofire
 
 class ViewController: UIViewController, UITextFieldDelegate, CLLocationManagerDelegate {
     
     var username = ""
+    let url = "mirkoghey.com"
+    
     @IBOutlet weak var usrnameLbl: UILabel!
     @IBOutlet weak var imageView: UIImageView!
     
     @IBOutlet weak var coordsLbl: UILabel!
+    @IBOutlet weak var descriptionText: UITextView!
+    
+    @IBOutlet weak var sendBtn: UIButton!
     
     let locationManager = CLLocationManager()
     
-
+    @IBAction func sendData(_ sender: Any) {
+        let imageData = UIImageJPEGRepresentation(imageView.image!, 0.5) as Data?
+        let url = try! URLRequest(url: URL(string:"www.mirkoghey.com")!, method: .post, headers: nil)
+    
+        Alamofire.upload(
+            multipartFormData: { multipartFormData in
+                multipartFormData.append(imageData!, withName: "photo", fileName: "\(NSDate().timeIntervalSince1970)-\(self.username).jpg", mimeType: "image/jpeg")
+                
+        },
+            with: url,
+            encodingCompletion: { encodingResult in
+                switch encodingResult {
+                case .success(let upload, _, _):
+                    upload.responseJSON { response in
+                        if((response.result.value) != nil) {
+                            
+                        } else {
+                            
+                        }
+                    }
+                case .failure( _):
+                    break
+                }
+        }
+        )
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -38,6 +70,10 @@ class ViewController: UIViewController, UITextFieldDelegate, CLLocationManagerDe
         let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(self.takePhoto(_:)))
         imageView.addGestureRecognizer(gestureRecognizer)
         imageView.isUserInteractionEnabled = true
+        let gestureRecognizer2 = UITapGestureRecognizer(target: self, action: #selector(self.writeComment(_:)))
+        descriptionText.addGestureRecognizer(gestureRecognizer2)
+        descriptionText.isUserInteractionEnabled = true
+        sendBtn.alpha = 0;
     }
     
     @objc func takePhoto(_ sender: UITapGestureRecognizer) {
@@ -55,12 +91,37 @@ class ViewController: UIViewController, UITextFieldDelegate, CLLocationManagerDe
         
         present(cameraViewController, animated: true, completion: nil)
     }
+    
+    @objc func writeComment(_ sender: UITapGestureRecognizer) {
+        let alert = UIAlertController(style: UIAlertControllerStyle.alert, title: "Comment")
+        let config: TextField.Config = { textField in
+            textField.becomeFirstResponder()
+            textField.textColor = .black
+            textField.placeholder = "Type something"
+            textField.borderWidth = 1
+            textField.cornerRadius = 8
+            textField.borderColor = UIColor.lightGray.withAlphaComponent(0.5)
+            textField.backgroundColor = nil
+            textField.keyboardAppearance = .default
+            textField.keyboardType = .default
+            textField.returnKeyType = .done
+            textField.action { textField in
+                // validation and so on
+            }
+            textField.delegate = self
+            textField.tag = 2
+        }
+        alert.addOneTextField(configuration: config)
+        alert.addAction(title: "OK", style: .cancel)
+        alert.show()
+    }
 
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         let locValue:CLLocationCoordinate2D = manager.location!.coordinate
         coordsLbl.text = "@\nLAT: \(locValue.latitude)\nLNG: \(locValue.longitude)"
         print("locations = \(locValue.latitude) \(locValue.longitude)")
         self.locationManager.stopUpdatingLocation()
+        self.sendBtn.alpha = 1;
     }
     
     override func didReceiveMemoryWarning() {
@@ -104,6 +165,7 @@ class ViewController: UIViewController, UITextFieldDelegate, CLLocationManagerDe
                     // validation and so on
                 }
                 textField.delegate = self
+                textField.tag = 1
             }
             alert.addOneTextField(configuration: config)
             alert.addAction(title: "OK", style: .cancel)
@@ -115,11 +177,16 @@ class ViewController: UIViewController, UITextFieldDelegate, CLLocationManagerDe
     
     
     func textFieldDidEndEditing(_ textField: UITextField, reason: UITextFieldDidEndEditingReason){
-        print(textField.text!)
-        usrnameLbl.text = "Welcome \(textField.text!)"
-        username = textField.text!
-        UserDefaults.standard.set(username, forKey: "username")
-        checkPermission()
+        if(textField.tag == 1){
+            print(textField.text!)
+            usrnameLbl.text = "Welcome \(textField.text!)"
+            username = textField.text!
+            UserDefaults.standard.set(username, forKey: "username")
+            checkPermission()
+        }else{
+            descriptionText.text = "\(textField.text!)"
+            descriptionText.textColor = UIColor.black
+        }
     }
 }
 

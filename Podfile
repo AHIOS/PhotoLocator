@@ -8,4 +8,5 @@ target 'PhotoLocator' do
   # Pods for PhotoLocator
 pod 'Sparrow/Modules/RequestPermission', :git => 'https://github.com/IvanVorobei/Sparrow.git'
 pod 'ALCameraViewController'
+pod 'Alamofire', '~> 4.5'
 end

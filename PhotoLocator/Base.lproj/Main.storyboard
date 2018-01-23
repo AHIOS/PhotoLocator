@@ -31,27 +31,49 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qu7-Ed-BpT">
-                                <rect key="frame" x="179.5" y="357" width="15.5" height="21"/>
+                                <rect key="frame" x="180" y="357" width="16" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Write something..." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Thw-Xi-YgJ">
+                                <rect key="frame" x="67" y="386" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" red="0.62352941176470589" green="0.62352941176470589" blue="0.62352941176470589" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KSF-gZ-g1U">
+                                <rect key="frame" x="167" y="583" width="40" height="30"/>
+                                <state key="normal" title="SEND"/>
+                                <connections>
+                                    <action selector="sendData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7I4-oI-9gQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Qu7-Ed-BpT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4pb-Ed-4GJ"/>
                             <constraint firstItem="Qu7-Ed-BpT" firstAttribute="top" secondItem="V8P-x5-j1Q" secondAttribute="bottom" constant="28" id="E9m-X0-rff"/>
                             <constraint firstItem="V8P-x5-j1Q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="FII-8W-xCv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Thw-Xi-YgJ" secondAttribute="bottom" constant="153" id="Rfg-Pl-Ilg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="KSF-gZ-g1U" secondAttribute="bottom" constant="54" id="S1d-Xf-SNI"/>
+                            <constraint firstItem="KSF-gZ-g1U" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Tvi-o4-xvL"/>
                             <constraint firstItem="V8P-x5-j1Q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ulb-pl-jJl"/>
+                            <constraint firstItem="Thw-Xi-YgJ" firstAttribute="top" secondItem="Qu7-Ed-BpT" secondAttribute="bottom" constant="8" id="Ve5-60-K8P"/>
                             <constraint firstItem="V8P-x5-j1Q" firstAttribute="top" secondItem="2gb-2s-2YU" secondAttribute="bottom" constant="45" id="eKq-1s-WIj"/>
                             <constraint firstItem="2gb-2s-2YU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="gM2-AB-rY0"/>
+                            <constraint firstItem="Thw-Xi-YgJ" firstAttribute="leading" secondItem="V8P-x5-j1Q" secondAttribute="leading" id="rWW-xd-nwz"/>
+                            <constraint firstItem="Thw-Xi-YgJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="u4e-wg-8Gu"/>
                             <constraint firstItem="2gb-2s-2YU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vPz-ct-J5q"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="coordsLbl" destination="Qu7-Ed-BpT" id="D5J-6f-q07"/>
+                        <outlet property="descriptionText" destination="Thw-Xi-YgJ" id="DLD-di-ZMq"/>
                         <outlet property="imageView" destination="V8P-x5-j1Q" id="x95-Of-j77"/>
+                        <outlet property="sendBtn" destination="KSF-gZ-g1U" id="oiM-Uy-Ng2"/>
                         <outlet property="usrnameLbl" destination="2gb-2s-2YU" id="P4Z-k4-m8y"/>
                     </connections>
                 </viewController>
